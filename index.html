@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +18,9 @@
   <!-- style css custom kita -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-  
+
   <section id="topbar">
     <div class="container">
       <div class="row">
@@ -40,7 +42,7 @@
       </div>
     </div>
   </section>
-  
+
   <header>
     <div class="container">
       <div class="row">
@@ -57,440 +59,475 @@
           <div class="searchbox">
             <form method="get">
               <div class="input-group">
-                <input class="form-control" type="text" name="cari" placeholder="Cari sesuatu..." aria-label="Tombol Cari" aria-describedby="tombol-cari">
+                <input class="form-control" type="text" name="cari" placeholder="Cari sesuatu..."
+                  aria-label="Tombol Cari" aria-describedby="tombol-cari">
                 <div class="input-group-append">
                   <button class="btn btn-utama" id="tombol-cari">Cari</button>
                 </div>
               </div>
             </form>
           </div>
-        </div>  <!-- .col-md-8 -->
-      </div>  <!-- .row -->
+        </div> <!-- .col-md-8 -->
+      </div> <!-- .row -->
     </div> <!-- .container -->
-    
+
     <!-- section menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
-        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" 
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="my-nav" class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"         aria-expanded="false">Profil</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Sejarah</a>
-              <a class="dropdown-item" href="#">Visi dan Misi</a>
-              <a class="dropdown-item" href="#">Peta Sekolah</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sarana & Prasarana</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Sarana Infrastruktur</a>
-              <a class="dropdown-item" href="#">Sarana Pembelajaran</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Ekstrakulikuler</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Prestasi</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Berita Sekolah</a>
-              <a class="dropdown-item" href="#">Pengumuman</a>
-              <a class="dropdown-item" href="#">Agenda</a>
-              <a class="dropdown-item" href="#">Kalender Akademik</a>                        
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeri</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Galeri Foto</a>
-              <a class="dropdown-item" href="#">Video & Dokumentasi</a>                         
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Kontak</a>
-          </li>
-        </ul>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Profil</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sejarah</a>
+                <a class="dropdown-item" href="#">Visi dan Misi</a>
+                <a class="dropdown-item" href="#">Peta Sekolah</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Sarana & Prasarana</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sarana Infrastruktur</a>
+                <a class="dropdown-item" href="#">Sarana Pembelajaran</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Ekstrakulikuler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Prestasi</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Berita</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Berita Sekolah</a>
+                <a class="dropdown-item" href="#">Pengumuman</a>
+                <a class="dropdown-item" href="#">Agenda</a>
+                <a class="dropdown-item" href="#">Kalender Akademik</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Galeri</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Galeri Foto</a>
+                <a class="dropdown-item" href="#">Video & Dokumentasi</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Kontak</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
-<section>
-  <div id="hero-area">
-    <div id="hero-area-nav">
-      <div class="owl-carousel p-0" id="hero-area-slider">  
-        <div class="hero-area-item">
-          <img class="img-fluid" src="assets/img/banner-siswa.jpg" alt="Banner Slider 1">
-          <div class="hero-area-content">
-            <h2>Penerimaan Peserta Didik Baru TA 2020/2021 telah dibuka!</h2>
-            <p>Silahkan anda bisa akses <a href="">ppdb.smpn32bdg.sch.id</a>untuk mendapatkan semua informasi terkait pendaftaran PPDB tahun ajaran 2020/2021 SMP Negeri 32 Bandung</p>
-            <a class="btn btn-utama">Daftar PPDB</a>
+  <section>
+    <div id="hero-area">
+      <div id="hero-area-nav">
+        <div class="owl-carousel" id="hero-area-slider">
+          <div class="hero-area-item">
+            <img class="img-fluid" src="assets/img/banner-siswa.jpg" alt="Banner Slider 1">
+            <div class="hero-area-content">
+              <h2>Penerimaan Peserta Didik Baru TA 2020/2021 telah dibuka!</h2>
+              <p>Silahkan anda bisa akses <a href="">ppdb.smpn32bdg.sch.id</a>untuk mendapatkan semua informasi
+                terkait pendaftaran PPDB tahun ajaran 2020/2021 SMP Negeri 32 Bandung</p>
+              <a class="btn btn-utama">Daftar PPDB</a>
+            </div>
+          </div>
+          <div class="hero-area-item">
+            <img class="img-fluid" src="assets/img/banner-siswa.jpg" alt="Banner Slider 1">
+            <div class="hero-area-content">
+              <h2>Title 2</h2>
+              <p>Lorem Ipsum Sit Dolor Amet...</p>
+              <a class="btn btn-utama">CTA Button</a>
+            </div>
           </div>
         </div>
-        <div class="hero-area-item">
-          <img class="img-fluid" src="assets/img/banner-siswa.jpg" alt="Banner Slider 1">
-          <div class="hero-area-content">
-            <h2>Title 2</h2>
-            <p>Lorem Ipsum Sit Dolor Amet...</p>
-            <a class="btn btn-utama">CTA Button</a>
-          </div>
-        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="sambutan">
-  <div class="container">
-    <h2>Profil SMP Negeri 32 Bandung</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="video-wrapper">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/YjfxZDQn0mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h3>Sambutan Kepala Sekolah</h3>
-        <p>Assalamu'alaikum wr. wb. Pada tahun 2045 merupakan target generasi yang saat ini sedang mengenyam pendidikan dan diharapkan akan meraih kesuksesan di tahun 2045. Oleh karena itu perlu adanya usaha mempersiapkan generasi emas tersebut untuk menyelaraskan dengan perkembangan zaman. pendidikan di SMP Negeri 32 Bandung harus mampu persiapan generasi emas di tahun 2045 tersebut. Dunia sekarang ini dihadapkan dengan krisis karakter dimana kejahatan yang merajalela dimana-mana ....</p>
-        <a href="" class="btn btn-utama">Baca Selengkapnya</a>
-      </div>
-    </div>
-  </div>
-</section> <!--#sambutan-->
-
-<section id="prestasi">
-  <div class="container">
-    <div class="section-title">
-      <h2>Prestasi Terbaru</h2>
-    </div>
-    <div class="section-item">
+  <section id="sambutan">
+    <div class="container">
+      <h2>Profil SMP Negeri 32 Bandung</h2>
       <div class="row">
         <div class="col-md-6">
-          <a href="">
-            <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-item-kanan">
-          <div class="section-item-title">
-            <a href="">
-              <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan</h3>
-            </a>
-            <div class="section-item-meta">
-              <span><i class="far fa-calendar-alt"></i> 20 Agustus 2019 - 22 Agustus 2019</span>
-              <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
-            </div>
-          </div>
-          <div class="section-item-body">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis suscipit nesciunt labore, error repellendus officiis? Voluptate assumenda accusamus pariatur numquam laborum tenetur culpa laboriosam eveniet amet ab saepe, labore hic veritatis qui excepturi non quos blanditiis. Ullam natus modi labore!</p>
+          <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YjfxZDQn0mU"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="section-item">
-      <div class="row">
         <div class="col-md-6">
-          <a href="">
-            <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-item-kanan">
-          <div class="section-item-title">
-            <a href="">
-              <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan</h3>
-            </a>
-            <div class="section-item-meta">
-              <span><i class="far fa-calendar-alt"></i> 20 Agustus 2019 - 22 Agustus 2019</span>
-              <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
-            </div>
-          </div>
-          <div class="section-item-body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus ea exercitationem rerum doloremque similique reprehenderit non maiores, dolorum nobis, numquam voluptatem nesciunt tenetur, ipsa nam id quasi rem architecto quas doloribus accusamus? Aliquam, laudantium alias illo nesciunt dicta ea!</p>
-          </div>
+          <h3>Sambutan Kepala Sekolah</h3>
+          <p>Assalamu'alaikum wr. wb. Pada tahun 2045 merupakan target generasi yang saat ini sedang mengenyam
+            pendidikan dan diharapkan akan meraih kesuksesan di tahun 2045. Oleh karena itu perlu adanya usaha
+            mempersiapkan generasi emas tersebut untuk menyelaraskan dengan perkembangan zaman. pendidikan di SMP Negeri
+            32 Bandung harus mampu persiapan generasi emas di tahun 2045 tersebut. Dunia sekarang ini dihadapkan dengan
+            krisis karakter dimana kejahatan yang merajalela dimana-mana ....</p>
+          <a href="" class="btn btn-utama">Baca Selengkapnya</a>
         </div>
       </div>
     </div>
-    <div class="section-item">
-      <div class="row">
-        <div class="col-md-6">
-          <a href="">
-            <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-item-kanan">
-          <div class="section-item-title">
-            <a href="">
-              <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan</h3>
-            </a>
-            <div class="section-item-meta">
-              <span><i class="far fa-calendar-alt"></i> 20 Agustus 2019 - 22 Agustus 2019</span>
-              <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
-            </div>
-          </div>
-          <div class="section-item-body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus ea exercitationem rerum doloremque similique reprehenderit non maiores, dolorum nobis, numquam voluptatem nesciunt tenetur, ipsa nam id quasi rem architecto quas doloribus accusamus? Aliquam, laudantium alias illo nesciunt dicta ea!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="tombol-selengkapnya">
-      <a href="" class="btn btn-more">Lihat Prestasi Lainnya</a>
-    </div>
-  </div>
-</section>
+  </section>
+  <!--#sambutan-->
 
-<section id="ekstrakulikuler">
-  <div class="container">
-    <div class="section-title">
-      <h2>Ekstrakulikuler</h2>
+  <section id="prestasi">
+    <div class="container">
+      <div class="section-title">
+        <h2>Prestasi Terbaru</h2>
+      </div>
+      <div class="section-item">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="">
+              <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-item-kanan">
+            <div class="section-item-title">
+              <a href="">
+                <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan</h3>
+              </a>
+              <div class="section-item-meta">
+                <span><i class="far fa-calendar-alt"></i> 20 Agustus 2019 - 22 Agustus 2019</span>
+                <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
+              </div>
+            </div>
+            <div class="section-item-body">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis suscipit nesciunt labore, error
+                repellendus officiis? Voluptate assumenda accusamus pariatur numquam laborum tenetur culpa laboriosam
+                eveniet amet ab saepe, labore hic veritatis qui excepturi non quos blanditiis. Ullam natus modi labore!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-item">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="">
+              <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-item-kanan">
+            <div class="section-item-title">
+              <a href="">
+                <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan</h3>
+              </a>
+              <div class="section-item-meta">
+                <span><i class="far fa-calendar-alt"></i> 20 Agustus 2019 - 22 Agustus 2019</span>
+                <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
+              </div>
+            </div>
+            <div class="section-item-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus ea exercitationem rerum
+                doloremque similique reprehenderit non maiores, dolorum nobis, numquam voluptatem nesciunt tenetur, ipsa
+                nam id quasi rem architecto quas doloribus accusamus? Aliquam, laudantium alias illo nesciunt dicta ea!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-item">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="">
+              <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-item-kanan">
+            <div class="section-item-title">
+              <a href="">
+                <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan</h3>
+              </a>
+              <div class="section-item-meta">
+                <span><i class="far fa-calendar-alt"></i> 20 Agustus 2019 - 22 Agustus 2019</span>
+                <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
+              </div>
+            </div>
+            <div class="section-item-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus ea exercitationem rerum
+                doloremque similique reprehenderit non maiores, dolorum nobis, numquam voluptatem nesciunt tenetur, ipsa
+                nam id quasi rem architecto quas doloribus accusamus? Aliquam, laudantium alias illo nesciunt dicta ea!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tombol-selengkapnya">
+        <a href="" class="btn btn-more">Lihat Prestasi Lainnya</a>
+      </div>
     </div>
-    <div class="section-body">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="section-body-item">
-            <div class="row row-2">
-              <div class="col-md-3">
-                <i class="far fa-user"></i>
+  </section>
+
+  <section id="ekstrakulikuler">
+    <div class="container">
+      <div class="section-title">
+        <h2>Ekstrakulikuler</h2>
+      </div>
+      <div class="section-body">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="section-body-item">
+              <div class="row row-2">
+                <div class="col-md-3">
+                  <i class="far fa-user"></i>
+                </div>
+                <div class="col-md-9">
+                  <h4>Praja Muda Karana (Pramuka)</h4>
+                </div>
               </div>
-              <div class="col-md-9">
-                <h4>Praja Muda Karana (Pramuka)</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-body-item">
+              <div class="row row-2">
+                <div class="col-md-3">
+                  <i class="far fa-user"></i>
+                </div>
+                <div class="col-md-9">
+                  <h4>Palang Merah Remaja (PMR)</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-body-item">
+              <div class="row row-2">
+                <div class="col-md-3">
+                  <i class="far fa-user"></i>
+                </div>
+                <div class="col-md-9">
+                  <h4>Olimpiade Sains</h4>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="section-body-item">
-            <div class="row row-2">
-              <div class="col-md-3">
-                <i class="far fa-user"></i>
-              </div>
-              <div class="col-md-9">
-                <h4>Palang Merah Remaja (PMR)</h4>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="section-body-item">
+              <div class="row row-2">
+                <div class="col-md-3">
+                  <i class="far fa-user"></i>
+                </div>
+                <div class="col-md-9">
+                  <h4>Pencinta Alam</h4>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="section-body-item">
-            <div class="row row-2">
-              <div class="col-md-3">
-                <i class="far fa-user"></i>
+          <div class="col-md-4">
+            <div class="section-body-item">
+              <div class="row row-2">
+                <div class="col-md-3">
+                  <i class="far fa-user"></i>
+                </div>
+                <div class="col-md-9">
+                  <h4>Karya Ilmiah Remaja</h4>
+                </div>
               </div>
-              <div class="col-md-9">
-                <h4>Olimpiade Sains</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="section-body-item">
+              <div class="row row-2">
+                <div class="col-md-3">
+                  <i class="far fa-user"></i>
+                </div>
+                <div class="col-md-9">
+                  <h4>Sinematografi</h4>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="section-body-item">
-            <div class="row row-2">
-              <div class="col-md-3">
-                <i class="far fa-user"></i>
-              </div>
-              <div class="col-md-9">
-                <h4>Pencinta Alam</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="section-body-item">
-            <div class="row row-2">
-              <div class="col-md-3">
-                <i class="far fa-user"></i>
-              </div>
-              <div class="col-md-9">
-                <h4>Karya Ilmiah Remaja</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="section-body-item">
-            <div class="row row-2">
-              <div class="col-md-3">
-                <i class="far fa-user"></i>
-              </div>
-              <div class="col-md-9">
-                <h4>Sinematografi</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+  </section>
+
+
+  <section id="tenaga-pendidik">
+    <div class="container">
+      <div class="section-title">
+        <h2>Tenaga Pendidik</h2>
       </div>
-    </div>
-  </div>
-</section>
-
-
-<section id="tenaga-pendidik">
-  <div class="container">
-    <div class="section-title">
-      <h2>Tenaga Pendidik</h2>
-    </div>
-    <div class="section-body">
-      <div id="slider-tools-1"></div>
-      <div class="owl-carousel" id="tenaga-pendidik-slider">
-        <div class="section-item-slider">
-          <a href="">
-            <img class="foto-guru" src="assets/img/foto-guru-1.jpg" alt="">
-          </a>
-          <div class="section-item-caption">
+      <div class="section-body">
+        <div id="slider-tools-1"></div>
+        <div class="owl-carousel" id="tenaga-pendidik-slider">
+          <div class="section-item-slider">
             <a href="">
-              <h5>SARNO, S.Pd., M.Pd</h5>
+              <img class="foto-guru" src="assets/img/foto-guru-1.jpg" alt="">
             </a>
-            <h6>Guru Bahasa Indonesia</h6>
-          </div>
-        </div>
-        <div class="section-item-slider">
-          <a href="">
-            <img class="foto-guru" src="assets/img/foto-guru-2.jpg" alt="">
-          </a>
-          <div class="section-item-caption">
-            <a href="">
-              <h5>Drs. WARDANI</h5>
-            </a>
-            <h6>Guru Bimbingan Konseling</h6>
-          </div>
-        </div>
-        <div class="section-item-slider">
-          <a href="">
-            <img class="foto-guru" src="assets/img/foto-guru-3.jpg" alt="">
-          </a>
-          <div class="section-item-caption">
-            <a href="">
-              <h5>HARYANI, S.Pd., M.Pd</h5>
-            </a>
-            <h6>Guru Matematika</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="tombol-selengkapnya">
-    <a href="" class="btn btn-more">Lihat Semua Guru</a>
-  </div>
-</section>
-
-<section id="alumni">
-  <div class="container">
-    <div class="section-title">
-      <h2>Profil Alumni</h2>
-    </div>
-    <div class="section-body">
-      <div id="slider-tools-2"></div>
-      <div class="owl-carousel" id="alumni-slider">
-        <div class="section-item-slider">
-          <div class="row">
-            <div class="col-md-5">
-              <img class="foto-alumni" src="assets/img/bu-susi-p.jpg" alt="">
-            </div>
-            <div class="col-md-7">
-              <div class="section-item-content">
-                <a href=""><h3>Dr. (HC) Susi Pudjiastuti</h3></a>
-                <p>Menteri Kelautan dan Perikanan dari Kabinet Kerja 2014-2019 yang juga pengusaha pemilik dan Presdir PT ASI Pudjiastuti Marine Product, eksportir hasil-hasil perikanan dan PT ASI Pudjiastuti Aviation atau...</p>
-                <a href="" class="more">Selengkapnya <i class="fas fa-arrow-right"></i></a>
-              </div>
+            <div class="section-item-caption">
+              <a href="">
+                <h5>SARNO, S.Pd., M.Pd</h5>
+              </a>
+              <h6>Guru Bahasa Indonesia</h6>
             </div>
           </div>
-        </div>
-        <div class="section-item-slider">
-          <div class="row">
-            <div class="col-md-5">
-              <img class="foto-alumni" src="assets/img/prof-dwikorita.jpg" alt="">
-            </div>
-            <div class="col-md-7">
-              <div class="section-item-content">
-                <a href=""><h3>Prof. Dwikorita Karnawati, M.Sc., Ph.D</h3></a>
-                <p>Prof. Dwikorita Karnawati, M.Sc., Ph.D adalah akademisi dan dosen Indonesia. Dwikorita merupakan Rektor wanita pertama Universitas Gadjah Mada, menggantikan Prof. Dr. Pratikno, M.Soc.Sc., yang...</p>
-                <a href="" class="more">Selengkapnya <i class="fas fa-arrow-right"></i></a>
-              </div>
+          <div class="section-item-slider">
+            <a href="">
+              <img class="foto-guru" src="assets/img/foto-guru-2.jpg" alt="">
+            </a>
+            <div class="section-item-caption">
+              <a href="">
+                <h5>Drs. WARDANI</h5>
+              </a>
+              <h6>Guru Bimbingan Konseling</h6>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="galeri">
-  <div class="container">
-    <div class="section-title">
-      <h2>Galeri / Dokumentasi</h2>
-    </div>
-    <div class="section-body">
-      <div id="slider-tools-3"></div>
-      <div class="owl-carousel" id="galeri-slider">
-        <div class="section-item-slider">
-          <img class="foto-guru" src="assets/img/galeri-1.jpg" alt="">
-          <div class="section-item-caption">
+          <div class="section-item-slider">
             <a href="">
-              <h5>Kegiatan Outbound 2019</h5>
+              <img class="foto-guru" src="assets/img/foto-guru-3.jpg" alt="">
             </a>
-            <h6>Kaliboyong Camp, Pakem</h6>
-          </div>
-        </div>
-        <div class="section-item-slider">
-          <img class="foto-guru" src="assets/img/galeri-2.jpeg" alt="">
-          <div class="section-item-caption">
-            <a href="">
-              <h5>Album Ujian Nasional 2019</h5>
-            </a>
-            <h6>SMA N 404 Trainit, Wetanprogo</h6>
-          </div>
-        </div>
-        <div class="section-item-slider">
-          <div class="video-wrapper video-galeri">
-            <iframe src="https://www.youtube.com/embed/YjfxZDQn0mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="section-item-caption">
-            <a href="">
-              <h5>Video Dokumentasi Reuni Akbar</h5>
-            </a>
-            <h6>GOR SMA N 404 Trainit</h6>
+            <div class="section-item-caption">
+              <a href="">
+                <h5>HARYANI, S.Pd., M.Pd</h5>
+              </a>
+              <h6>Guru Matematika</h6>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="tombol-selengkapnya">
-      <a href="" class="btn btn-more">Lihat Galeri Lainnya</a>
+      <a href="" class="btn btn-more">Lihat Semua Guru</a>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="berita">
-  <div class="container">
-    <div class="section-title">
-      <h2>Berita Terbaru</h2>
-    </div>
-    <div class="section-body">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="section-thumbnail">
-            <img src="assets/img/galeri-1.jpg" alt="">
-            <div class="tanggal">
-              <span class="tgl">14</span>
-              <span class="tgl-2">Oktober, 2019</span>
+  <section id="alumni">
+    <div class="container">
+      <div class="section-title">
+        <h2>Profil Alumni</h2>
+      </div>
+      <div class="section-body">
+        <div id="slider-tools-2"></div>
+        <div class="owl-carousel" id="alumni-slider">
+          <div class="section-item-slider">
+            <div class="row">
+              <div class="col-md-5">
+                <img class="foto-alumni" src="assets/img/bu-susi-p.jpg" alt="">
+              </div>
+              <div class="col-md-7">
+                <div class="section-item-content">
+                  <a href="">
+                    <h3>Dr. (HC) Susi Pudjiastuti</h3>
+                  </a>
+                  <p>Menteri Kelautan dan Perikanan dari Kabinet Kerja 2014-2019 yang juga pengusaha pemilik dan Presdir
+                    PT ASI Pudjiastuti Marine Product, eksportir hasil-hasil perikanan dan PT ASI Pudjiastuti Aviation
+                    atau...</p>
+                  <a href="" class="more">Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="section-content">
-            <a href="">
-              <h3>Siswa Teladan Berkurban untuk Memupuk Kepedulian Sosial</h3></a>
-              <p>Bertepatan dengan hari Tasrikh ke-3, para siswa SMA Negeri 1 Teladan Yogyakarta mengadakan peringatan Idul Adha 1440H dengan<a href="">[...]</a></p>
+          <div class="section-item-slider">
+            <div class="row">
+              <div class="col-md-5">
+                <img class="foto-alumni" src="assets/img/prof-dwikorita.jpg" alt="">
+              </div>
+              <div class="col-md-7">
+                <div class="section-item-content">
+                  <a href="">
+                    <h3>Prof. Dwikorita Karnawati, M.Sc., Ph.D</h3>
+                  </a>
+                  <p>Prof. Dwikorita Karnawati, M.Sc., Ph.D adalah akademisi dan dosen Indonesia. Dwikorita merupakan
+                    Rektor wanita pertama Universitas Gadjah Mada, menggantikan Prof. Dr. Pratikno, M.Soc.Sc., yang...
+                  </p>
+                  <a href="" class="more">Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeri">
+    <div class="container">
+      <div class="section-title">
+        <h2>Galeri / Dokumentasi</h2>
+      </div>
+      <div class="section-body">
+        <div id="slider-tools-3"></div>
+        <div class="owl-carousel" id="galeri-slider">
+          <div class="section-item-slider">
+            <img class="foto-guru" src="assets/img/galeri-1.jpg" alt="">
+            <div class="section-item-caption">
+              <a href="">
+                <h5>Kegiatan Outbound 2019</h5>
+              </a>
+              <h6>Kaliboyong Camp, Pakem</h6>
+            </div>
+          </div>
+          <div class="section-item-slider">
+            <img class="foto-guru" src="assets/img/galeri-2.jpeg" alt="">
+            <div class="section-item-caption">
+              <a href="">
+                <h5>Album Ujian Nasional 2019</h5>
+              </a>
+              <h6>SMA N 404 Trainit, Wetanprogo</h6>
+            </div>
+          </div>
+          <div class="section-item-slider">
+            <div class="video-wrapper video-galeri">
+              <iframe src="https://www.youtube.com/embed/YjfxZDQn0mU" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="section-item-caption">
+              <a href="">
+                <h5>Video Dokumentasi Reuni Akbar</h5>
+              </a>
+              <h6>GOR SMA N 404 Trainit</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tombol-selengkapnya">
+        <a href="" class="btn btn-more">Lihat Galeri Lainnya</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="berita">
+    <div class="container">
+      <div class="section-title">
+        <h2>Berita Terbaru</h2>
+      </div>
+      <div class="section-body">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="section-thumbnail">
+              <img src="assets/img/galeri-1.jpg" alt="">
+              <div class="tanggal">
+                <span class="tgl">14</span>
+                <span class="tgl-2">Oktober, 2019</span>
+              </div>
+            </div>
+            <div class="section-content">
+              <a href="">
+                <h3>Siswa Teladan Berkurban untuk Memupuk Kepedulian Sosial</h3>
+              </a>
+              <p>Bertepatan dengan hari Tasrikh ke-3, para siswa SMA Negeri 1 Teladan Yogyakarta mengadakan peringatan
+                Idul Adha 1440H dengan<a href="">[...]</a></p>
             </div>
             <div class="section-meta">
               <a href="">Kegiatan</a>
@@ -511,11 +548,12 @@
       </div>
     </div> <!-- .container -->
   </section> <!-- section #berita -->
-  
+
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <script src="assets/js/main.js"></script>
-  
+
 </body>
+
 </html>

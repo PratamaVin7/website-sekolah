@@ -1,6 +1,5 @@
 body {
     font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 a, a:hover {
@@ -180,6 +179,7 @@ nav.navbar {
 #hero-area .hero-area-item img {
     min-height: 500px;
     object-fit: cover;
+    width: 100%;
 }
 
 #hero-area .hero-area-content {
@@ -258,7 +258,7 @@ nav.navbar {
     font-size: 14px;
     font-family: Raleway, sans-serif;
     font-weight: 500;
-    line-height: 28px;  
+    line-height: 28px;
 }
 
 /* css untuk section prestasi */
@@ -288,7 +288,7 @@ nav.navbar {
 
 .section-title {
     margin-bottom: 90px;
-    text-align: center; 
+    text-align: center;
 }
 
 .section-title h2 {
@@ -380,10 +380,6 @@ section:nth-of-type(2n) {
 }
 
 /* css untuk slider */
-
-.owl-item {
-    padding: 20px 10px;
-}
 
 .section-item-slider {
     height: 380px;
@@ -633,5 +629,5 @@ section:nth-of-type(2n) {
 #berita .section-content h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #15477A;   
+    color: #15477A;
 }

@@ -55,4 +55,5 @@ $(document).ready(function(){
         ],
         navContainer: '#slider-tools-3',
     });
+
 })
