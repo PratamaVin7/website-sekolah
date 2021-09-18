@@ -582,6 +582,10 @@ section:nth-of-type(2n) {
 
 /* CSS untuk berita */
 
+#berita .row {
+    margin-bottom: 50px;
+}
+
 .section-thumbnail {
     width: 100%;
     height: 237px;
@@ -623,11 +627,166 @@ section:nth-of-type(2n) {
 }
 
 #berita .section-content {
-    padding: 20px 0;
+    padding: 20px 0 0;
 }
 
 #berita .section-content h3 {
     font-size: 16px;
     font-weight: 600;
     color: #15477A;
+    line-height: 24px;
+}
+
+#berita .section-content p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+}
+
+#berita .section-content p .more {
+    color: #15477A;
+    font-weight: 500;
+}
+
+.section-meta a {
+    background-color: #15477A;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.section-meta a i {
+    margin-right: 5px;
+}
+
+#berita .tombol-selengkapnya {
+    margin-top: 80px;
+}
+
+/* CSS untuk Footer */
+
+footer {
+    color: #fff;
+    background-color: #15477A;
+    padding: 80px 0 0;
+}
+
+footer .footer-col:first-of-type {
+    padding-right: 30px;
+}
+
+footer .brand {
+    display: flex;
+}
+
+footer .brand img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+footer .brand h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+footer .tentang {
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+footer .sosmed {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sosmed li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .sosmed li a {
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+footer .sosmed li a:hover {
+    color: #666;
+}
+
+.footer-col h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-col .alamat {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footer-col .kontak {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-col .kontak li {
+    margin: 10px 0;
+}
+
+.footer-col .kontak i {
+    margin-right: 10px;
+}
+
+.footer-col .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col .footer-nav li {
+    margin: 10px 0;
+}
+
+.footer-col .footer-nav a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 28px;
+    transition: all 0.5s;
+}
+
+.footer-col .footer-nav a:hover {
+    border-bottom: 1px dashed #fff;
+
+}
+
+.footer-copyright .container {
+    border-top: 1px solid rgba(242, 242, 242, 0.25);
+    padding: 10px 0;
+}
+
+.footer-copyright {
+    margin-top: 60px;
+}
+
+.footer-copyright h6 {
+    font-size: 16px;
+    color: #CECECE;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
