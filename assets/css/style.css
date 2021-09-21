@@ -13,7 +13,7 @@ a, a:hover {
     line-height: 50px;
     font-size: 12px;
     text-transform: uppercase;
-    margin-bottom: 30px; /* modifikasi */
+    margin-bottom: 30px;
 }
 
 #topbar .top-nav {
@@ -72,12 +72,12 @@ header .brand h1 {
     color: #15477a;
 }
 
-header .brand-title h4 { /* modifikasi */
+header .brand-title h4 { 
     font-family: "Raleway", Calibri, sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
     color: #888888;
-    text-transform: uppercase; /* modifikasi */
+    text-transform: uppercase;
 }
 
 header .col-md-4 {
@@ -89,7 +89,6 @@ header form {
     width: 100%;
 }
 
-/* modifikasi */
 header .row {
     margin-bottom: 30px;
 }
@@ -108,7 +107,7 @@ a.btn.btn-utama:hover {
 
 #tombol-cari {
     font-size: 15px;
-    font-weight: 500; /* modifikasi */
+    font-weight: 500;
     text-transform: uppercase;
 }
 
