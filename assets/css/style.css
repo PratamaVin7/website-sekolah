@@ -789,3 +789,37 @@ footer .sosmed li a:hover {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* prestasi.html */
+
+h2.title {
+    margin-top: 50px;
+}
+
+#prestasi .container-2 {
+    margin-bottom: 100px;
+}
+
+/* kontak.html */
+
+#kontak {
+    margin-bottom: 100px;
+}
+
+/* visi_misi.html */
+
+#visimisi {
+    margin-bottom: 100px;
+}
+
+#visimisi .card-header  {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#visimisi p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
+}
