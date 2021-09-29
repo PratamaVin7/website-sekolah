@@ -6,7 +6,8 @@ a, a:hover {
     text-decoration: none;
 }
 
-/* css untuk topbar */
+/* css untuk section topbar */
+
 #topbar {
     background-color: #15477A;
     height: 50px;
@@ -60,7 +61,6 @@ header .brand {
     display: flex;
 }
 
-
 header .brand .brand-title {
     margin-left: 20px;
     margin-top: 30px;
@@ -111,7 +111,7 @@ a.btn.btn-utama:hover {
     text-transform: uppercase;
 }
 
-/* css untuk menu */
+/* css untuk section menu */
 
 nav.bg-primary {
     background-color: #15477A!important;
@@ -138,7 +138,8 @@ nav.navbar {
     color: #15477A;
 }
 
-/* css untuk hero area */
+/* css untuk section hero area */
+
 #hero-area {
     position: relative;
     min-height: 500px;
@@ -216,6 +217,8 @@ nav.navbar {
     border-radius: 50px;
     font-weight: 500;
 }
+
+/* css untuk section profil */
 
 .video-wrapper {
     position: relative;
@@ -345,7 +348,7 @@ nav.navbar {
     color: #666;
 }
 
-/* CSS untuk tbl selengkapnya */
+/* css untuk tombol selengkapnya */
 
 section {
     margin: 80px 0;
@@ -454,7 +457,7 @@ section:nth-of-type(2n) {
     color: #000;
 }
 
-/* css untuk profil alumni */
+/* css untuk section alumni */
 
 #alumni {
     background-color: #15477A;
@@ -494,6 +497,29 @@ section:nth-of-type(2n) {
 
 #alumni .section-item-content .more i {
     margin-left: 10px;
+}
+
+#alumni .tombol-selengkapnya {
+    margin-top: 50px;
+}
+
+#alumni .btn.btn-more {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #15477A;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #F2C808;
+    border-radius: 0;
+    padding: 10px 40px;
+    transition: background-color 0.3s;
+}
+
+#alumni .btn.btn-more:hover {
+    background-color: #F2C808;
+    color: #15477A;
 }
 
 .foto-alumni {
@@ -579,7 +605,30 @@ section:nth-of-type(2n) {
     transform: translateY(-50%);
 }
 
-/* CSS untuk berita */
+#ekstrakulikuler .tombol-selengkapnya {
+    margin-top: 50px;
+}
+
+#ekstrakulikuler .btn.btn-more {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #15477A;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #F2C808;
+    border-radius: 0;
+    padding: 10px 40px;
+    transition: background-color 0.3s;
+}
+
+#ekstrakulikuler .btn.btn-more:hover {
+    background-color: #F2C808;
+    color: #15477A;
+}
+
+/* css untuk section berita */
 
 #berita .row {
     margin-bottom: 50px;
@@ -663,7 +712,7 @@ section:nth-of-type(2n) {
     margin-top: 80px;
 }
 
-/* CSS untuk Footer */
+/* css untuk footer */
 
 footer {
     color: #fff;
@@ -691,6 +740,7 @@ footer .brand h1 {
     line-height: 30px;
     text-transform: uppercase;
 }
+
 footer .tentang {
     font-size: 14px;
     line-height: 26px;
@@ -723,6 +773,14 @@ footer .sosmed li a {
 
 footer .sosmed li a:hover {
     color: #666;
+}
+
+a.telepon, a.email {
+    color: #fff;
+}
+
+a.telepon:hover, a.email:hover {
+    border-bottom: 1px dashed #fff;
 }
 
 .footer-col h2 {
@@ -790,26 +848,47 @@ footer .sosmed li a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* prestasi.html */
+/* css untuk sejarah_sekolah.html */
+#sejarah {
+    margin-bottom: 100px;
+}
 
-h2.title {
+#sejarah h2.title {
     margin-top: 50px;
 }
 
-#prestasi .container-2 {
-    margin-bottom: 100px;
+#sejarah .card-header {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* kontak.html */
-
-#kontak {
-    margin-bottom: 100px;
+#sejarah .card-text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* visi_misi.html */
+/* css untuk identitas_sekolah.html */
+
+#identitas h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk struktur_organisasi.html */
+
+#struktur h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk visi_misi.html */
 
 #visimisi {
     margin-bottom: 100px;
+}
+
+#visimisi h2.title {
+    margin-top: 50px;
 }
 
 #visimisi .card-header  {
@@ -822,4 +901,113 @@ h2.title {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* css untuk kepala_sekolah.html */
+
+#kepsek h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk guru.html */
+
+#guru h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk alumni.html */
+
+#alumni h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk sarana_prasarana.html */
+
+#sarana h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk ekstrakulikuler.html */
+
+#ekskul h2.title {
+    margin-top: 50px;
+}
+
+#ekskul .container-2 {
+    margin-bottom: 100px;
+}
+
+/* css untuk prestasi.html */
+
+#prestasi h2.title {
+    margin-top: 50px;
+}
+
+#prestasi .container-2 {
+    margin-bottom: 100px;
+}
+
+/* css untuk berita_sekolah.html */
+
+#berita h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk pengumuman.html */
+
+#pengumuman h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk agenda.html */
+
+#agenda h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk kalender_akademik.html */
+
+#kalender h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk galeri_foto.html */
+
+#foto h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk galeri_video.html */
+
+#video h2.title {
+    margin-top: 50px;
+}
+
+/* css untuk kontak.html */
+
+#kontak {
+    margin-bottom: 100px;
+}
+
+#kontak h2.title {
+    margin-top: 50px;
+}
+
+#kontak .card-body {
+    height: 150px;
+    background-color: #15477A;
+    color: #F2C808;
+    text-align: center;
+}
+
+#kontak .card-body-2 {
+    display: inline-block;
+    padding-top: 40px;
+}
+
+#kontak iframe {
+    height: 720px;
+    width: 1280px;
+    margin-top: 50px;
+    margin-right: 65px;
 }
