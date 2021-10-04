@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kepala Sekolah | SMPN 32 BANDUNG</title>
+    <title>Prestasi | SMPN 32 BANDUNG</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="/assets/logosmpn32bdg.ico/favicon.ico" type="image/x-icon">
@@ -23,9 +23,6 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this page -->
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -60,42 +57,14 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Profil
+                Prestasi
             </div>
 
-            <!-- Nav Item - Profil Sekolah -->
-            <li class="nav-item">
-                <a class="nav-link" href="profil.html">
-                    <i class="fas fa-fw fa-school"></i>
-                    <span>Profil Sekolah</span></a>
-            </li>
-
-            <!-- Nav Item - Struktur Organisasi -->
-            <li class="nav-item">
-                <a class="nav-link" href="struktur.html">
-                    <i class="fas fa-fw fa-object-group"></i>
-                    <span>Struktur Organisasi</span></a>
-            </li>
-
-            <!-- Nav Item - Kepala Sekolah -->
+            <!-- Nav Item - Prestasi -->
             <li class="nav-item active">
-                <a class="nav-link" href="kepsek.html">
-                    <i class="fas fa-fw fa-male"></i>
-                    <span>Kepala Sekolah</span></a>
-            </li>
-
-            <!-- Nav Item - Guru & Staf -->
-            <li class="nav-item">
-                <a class="nav-link" href="guru.html">
-                    <i class="fas fa-fw fa-chalkboard-teacher"></i>
-                    <span>Guru & Staf</span></a>
-            </li>
-
-            <!-- Nav Item - Alumni -->
-            <li class="nav-item">
-                <a class="nav-link" href="alumni.html">
-                    <i class="fas fa-fw fa-graduation-cap"></i>
-                    <span>Alumni</span></a>
+                <a class="nav-link" href="prestasi.html">
+                    <i class="fas fa-fw fa-medal"></i>
+                    <span>Prestasi</span></a>
             </li>
 
             <!-- Divider -->
@@ -323,47 +292,38 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Kepala Sekolah</h1>
+                    <h1 class="h3 mb-4 text-gray-800">Tambah Data Prestasi</h1>
 
-                    <!-- Tabel Data Kepala Sekolah -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Data Kepala Sekolah</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <a href="tambah_kepsek.html" class="btn btn-success btn-icon-split">
-                                    <span class="text">Tambah Data</span>
-                                </a>
+                    <!-- Form Tambah Data Prestasi -->
+                    <div class="col-md-6">
+                        <div class="card shadow mb-4">
+                            <div class="card-header py-3">
+                                <h6 class="m-0 font-weight-bold text-primary">Form Tambah Data</h6>
                             </div>
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Nama</th>
-                                            <th>NIP</th>
-                                            <th>Foto</th>
-                                            <th>Opsi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Edward Sinaga S.Pd</td>
-                                            <td>196909251997031007</td>
-                                            <td></td>
-                                            <td>
-                                                <div class="mb-2">
-                                                    <a href="edit_kepsek.html" class="btn btn-warning btn-circle">
-                                                        <i class="fas fa-edit"></i>
-                                                    </a>
-                                                    <a href="#" class="btn btn-danger btn-circle">
-                                                        <i class="fas fa-trash"></i>
-                                                    </a>
-                                                </div>
-                                            </div></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                      <label for="exampleInputText1">Nama Prestasi</label>
+                                      <input type="text" class="form-control" id="exampleInputText1" aria-describedby="TextHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputText2">Tanggal Lomba</label>
+                                        <input type="text" class="form-control" id="exampleInputText2" aria-describedby="TextHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputText3">Tempat Lomba</label>
+                                        <input type="text" class="form-control" id="exampleInputText3" aria-describedby="TextHelp">
+                                    </div>  
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Keterangan</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlFile1">Upload Foto Disini</label>
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Simpan</button>
+                                  </form>
                             </div>
                         </div>
                     </div>
@@ -424,13 +384,6 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 

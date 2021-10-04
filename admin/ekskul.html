@@ -24,6 +24,9 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -294,14 +297,14 @@
                     <!-- Page Heading -->
                     <h1 class="h3 mb-4 text-gray-800">Ekstrakulikuler</h1>
 
-                    <!-- Tabel Data Alumni -->
+                    <!-- Tabel Data Ekstrakulikuler -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Data Alumni</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Data Ekstrakulikuler</h6>
                         </div>
                         <div class="card-body">
                             <div class="mb-2">
-                                <a href="#" class="btn btn-success btn-icon-split">
+                                <a href="tambah_ekskul.html" class="btn btn-success btn-icon-split">
                                     <span class="text">Tambah Data</span>
                                 </a>
                             </div>
@@ -309,22 +312,24 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Nama</th>
-                                            <th>Angkatan</th>
-                                            <th>Sambutan</th>
+                                            <th>Nama Ekstrakulikuler</th>
+                                            <th>Nama Pembina</th>
+                                            <th>Nama Ketua</th>
+                                            <th>Keterangan</th>
                                             <th>Foto</th>
                                             <th>Opsi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Meri Fitriana</td>
-                                            <td>2010</td>
-                                            <td></td>
+                                            <td>Paskibra</td>
+                                            <td>Asep Sudrajat</td>
+                                            <td>Ujang Hartono</td>
+                                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus voluptatum quaerat cupiditate, nulla assumenda excepturi nesciunt laboriosam porro repellendus temporibus quidem neque tempore aliquid veniam?</td>
                                             <td></td>
                                             <td>
                                                 <div class="mb-2">
-                                                    <a href="#" class="btn btn-warning btn-circle">
+                                                    <a href="edit_ekskul.html" class="btn btn-warning btn-circle">
                                                         <i class="fas fa-edit"></i>
                                                     </a>
                                                     <a href="#" class="btn btn-danger btn-circle">
@@ -395,6 +400,13 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 
