@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
   <!-- style css custom kita -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- fullcalendar -->
+  <link rel="stylesheet" href="assets/lib/main.css">
 </head>
 
 <!-- section topbar -->
@@ -131,6 +133,34 @@
       <div class="section-title">
         <h2 class="title">Kalender Akademik</h2>
       </div>
+      <div id="calendar">
+        <script>
+
+          document.addEventListener('DOMContentLoaded', function() {
+            var initialLocaleCode = 'id';
+            var calendarEl = document.getElementById('calendar');
+        
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+              headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'dayGridMonth,timeGridWeek,timeGridDay'
+              },
+              locale: initialLocaleCode, // untuk menginisialisasi kode lokal(bahasa kalender)
+              buttonIcons: false, // tampilkan teks sebelumnya/berikutnya
+              weekNumbers: true, //tampilkan nomor minggu
+              navLinks: true, // dapat mengklik nama hari/minggu untuk menavigasi tampilan
+              editable: false, // dapat merubah isi kalender
+              dayMaxEvents: true, // izinkan tautan "lebih banyak" ketika terlalu banyak acara
+              events: 'kalender.php', // untuk menampilkan data dari database
+            });
+        
+            calendar.render();
+        
+          });
+        
+        </script>
+      </div>
     </div>
   </section>
 
@@ -193,7 +223,10 @@
   <!-- owl carousel -->
   <script src="assets/js/owl.carousel.min.js"></script>
   <!-- javascript custom -->
-  <script src="assets/js/main.js"></script>                
+  <script src="assets/js/main.js"></script>
+  <!-- fullcalendar -->
+  <script src="assets/lib/main.js"></script>
+  <script src="assets/lib/locales-all.js"></script>
               
 </body>
 </html>

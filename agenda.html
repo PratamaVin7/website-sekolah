@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
   <!-- style css custom kita -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- fullcalendar -->
+  <link rel="stylesheet" href="assets/lib/main.css">
 </head>
 
 <!-- section topbar -->
@@ -131,6 +133,45 @@
       <div class="section-title">
         <h2 class="title">Agenda</h2>
       </div>
+      <div id="calendar">
+        <script>
+
+          document.addEventListener('DOMContentLoaded', function() {
+            var initialLocaleCode = 'id';
+            var calendarEl = document.getElementById('calendar');
+        
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+
+              headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'listDay,listWeek,listMonth,listYear'
+              },
+
+              // sesuaikan nama tombol,
+              // kalau tidak, mereka semua hanya akan mengatakan "daftar"
+              views: {
+                listDay: { buttonText: 'Daftar Hari' },
+                listWeek: { buttonText: 'Daftar Minggu' },
+                listMonth: { buttonText: 'Daftar Bulan' },
+                listYear: { buttonText: 'Daftar Tahun' }
+              },
+
+              locale: initialLocaleCode,
+              initialView: 'listDay', // untuk menampilkan daftar hari di awal halaman
+              buttonIcons: false, // tampilkan teks sebelumnya/berikutnya
+              navLinks: true, // dapat mengklik nama hari/minggu untuk menavigasi tampilan
+              editable: false, // dapat merubah isi kalender
+              dayMaxEvents: true, // izinkan tautan "lebih banyak" ketika terlalu banyak acara
+              events: 'agenda.php', // untuk mengambil data kalender dari mysql
+            });
+        
+            calendar.render();
+        
+          });
+        
+        </script>
+      </div>
     </div>
   </section>
 
@@ -193,7 +234,10 @@
   <!-- owl carousel -->
   <script src="assets/js/owl.carousel.min.js"></script>
   <!-- javascript custom -->
-  <script src="assets/js/main.js"></script>                
+  <script src="assets/js/main.js"></script>    
+  <!-- fullcalendar -->
+  <script src="assets/lib/main.js"></script>
+  <script src="assets/lib/locales-all.js"></script>
               
 </body>
 </html>
