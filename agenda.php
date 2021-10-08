@@ -2,7 +2,7 @@
 // Panggil koneksi database
 include "koneksi.php";
 
-$tampil = mysqli_query($koneksi, "SELECT * FROM kalender order by id");
+$tampil = mysqli_query($koneksi, "SELECT * FROM t_agenda order by id");
 
 $dataArr = array();
 while($data = mysqli_fetch_array($tampil)) {
@@ -12,8 +12,6 @@ while($data = mysqli_fetch_array($tampil)) {
         'title' => $data['judul_kegiatan'],
         'start' => $data['awal_kegiatan'],
         'end' => $data['akhir_kegiatan'],
-        'daysOfWeek' => $data['hari_dalam_seminggu'],
-        'duration' => $data['durasi'],
     );
 
 }

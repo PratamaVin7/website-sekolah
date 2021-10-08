@@ -2,7 +2,7 @@
 // Panggil koneksi database
 include "koneksi.php";
 
-$tampil = mysqli_query($koneksi, "SELECT * FROM kalender order by id");
+$tampil = mysqli_query($koneksi, "SELECT * FROM t_kalender order by id");
 
 $dataArr = array();
 while($data = mysqli_fetch_array($tampil)) {

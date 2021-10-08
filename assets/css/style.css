@@ -53,10 +53,6 @@ a, a:hover {
 
 /* css untuk header */
 
-header {
-    border-bottom: 5px solid #F2C808;
-}
-
 header .brand {
     display: flex;
 }
@@ -119,6 +115,7 @@ nav.bg-primary {
 
 nav.navbar {
     padding: 0 15px;
+    height: 50px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -134,6 +131,19 @@ nav.navbar {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
+    background-color: #F2C808;
+    color: #15477A;
+}
+
+.dropdown-menu {
+    background-color: #15477A;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
     background-color: #F2C808;
     color: #15477A;
 }
@@ -180,42 +190,6 @@ nav.navbar {
     min-height: 500px;
     object-fit: cover;
     width: 100%;
-}
-
-#hero-area .hero-area-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 700px;
-}
-
-#hero-area .hero-area-content h2 {
-    color: #15477A;
-    font-weight: 500;
-}
-
-#hero-area .hero-area-content p {
-    font-size: 15px;
-    font-family: "Raleway", Calibri, sans-serif;
-}
-
-#hero-area .hero-area-content p a {
-    color: #15477A;
-    font-weight: 600;
-}
-
-#hero-area .hero-area-content p a:hover {
-    border-bottom: 1px dashed #F2C808;
-}
-
-#hero-area .hero-area-content button {
-    padding: 10px 25px;
-    border-radius: 50px;
-    font-weight: 500;
 }
 
 /* css untuk section profil */
@@ -389,7 +363,7 @@ section:nth-of-type(2n) {
     position: relative;
 }
 
-#tenaga-pendidik .foto-guru {
+#guru-staf .foto-guru {
     height: 100%;
     object-fit: cover;
 }
@@ -418,7 +392,7 @@ section:nth-of-type(2n) {
     text-transform: uppercase;
 }
 
-#tenaga-pendidik .section-body {
+#guru-staf .section-body {
     position: relative;
 }
 
@@ -565,7 +539,7 @@ section:nth-of-type(2n) {
     object-fit: cover;
 }
 
-#tenaga-pendidik .section-body,
+#guru-staf .section-body,
 #galeri .section-body {
     margin-bottom: 40px;
 }
@@ -577,12 +551,82 @@ section:nth-of-type(2n) {
     padding: 80px 0;
 }
 
-#ekstrakulikuler .section-body-item {
+#ekstrakulikuler .section-body-item1 {
     /* display: flex; */
-    background-color: #15477A;
+    background-color: red;
     border-radius: 5px;
     padding: 20px;
-    color: #F2C808;
+    color: cyan;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 25px;
+    /* box-sizing: border-box; */
+}
+
+#ekstrakulikuler .section-body-item2 {
+    /* display: flex; */
+    background-color: orange;
+    border-radius: 5px;
+    padding: 20px;
+    color: blue;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 25px;
+    /* box-sizing: border-box; */
+}
+
+#ekstrakulikuler .section-body-item3 {
+    /* display: flex; */
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 20px;
+    color: green;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 25px;
+    /* box-sizing: border-box; */
+}
+
+#ekstrakulikuler .section-body-item4 {
+    /* display: flex; */
+    background-color: green;
+    border-radius: 5px;
+    padding: 20px;
+    color: yellow;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 25px;
+    /* box-sizing: border-box; */
+}
+
+#ekstrakulikuler .section-body-item5 {
+    /* display: flex; */
+    background-color: blue;
+    border-radius: 5px;
+    padding: 20px;
+    color: orange;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 25px;
+    /* box-sizing: border-box; */
+}
+
+#ekstrakulikuler .section-body-item6 {
+    /* display: flex; */
+    background-color: cyan;
+    border-radius: 5px;
+    padding: 20px;
+    color: red;
     height: 200px;
     text-align: center;
     vertical-align: middle;
