@@ -27,7 +27,11 @@ a, a:hover {
 
 #topbar .top-nav li a {
     color: #fff;
-    padding: 10px 20px;
+    padding: 5px 5px;
+}
+
+#topbar .top-nav li a:hover {
+    color: rgba(255,255,255,.75);
 }
 
 #topbar .top-nav li a i {
@@ -49,6 +53,10 @@ a, a:hover {
 
 #topbar .top-nav.kanan li a i {
     color: #fff;
+}
+
+#topbar .top-nav li a i:hover {
+    color: rgba(255,255,255,.75);
 }
 
 /* css untuk header */
@@ -144,8 +152,8 @@ nav.navbar {
 }
 
 .dropdown-item:hover {
-    background-color: #F2C808;
-    color: #15477A;
+    background-color: #15477A;
+    color: rgba(255,255,255,.75);
 }
 
 /* css untuk section hero area */
@@ -754,6 +762,7 @@ section:nth-of-type(2n) {
 
 #berita .tombol-selengkapnya {
     margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 /* css untuk footer */
@@ -873,7 +882,7 @@ a.telepon:hover, a.email:hover {
 
 .footer-col .footer-nav a:hover {
     border-bottom: 1px dashed #fff;
-
+    
 }
 
 .footer-copyright .container {
@@ -892,6 +901,29 @@ a.telepon:hover, a.email:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* css untuk scroll to top button */
+
+#scroll-to-top a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    content: "";
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background-color: #F2C808;
+    opacity: 0.6;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    z-index: 99;
+    transition: 0.3s;
+}
+
+#scroll-to-top a:hover {
+    opacity: 1;
+}
+
 /* css untuk sejarah_sekolah.html */
 #sejarah {
     margin-bottom: 100px;
@@ -901,27 +933,50 @@ a.telepon:hover, a.email:hover {
     margin-top: 50px;
 }
 
-#sejarah .card-header {
+#sejarah p {
     font-size: 20px;
-    font-weight: 400;
-    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#sejarah .card-text {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
 }
 
 /* css untuk identitas_sekolah.html */
+
+#identitas {
+    margin-bottom: 50px;
+}
 
 #identitas h2.title {
     margin-top: 50px;
 }
 
+#identitas p {
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
+}
+
 /* css untuk struktur_organisasi.html */
 
 #struktur h2.title {
+    margin-top: 50px;
+}
+
+#struktur .card {
+    border-style: none;
+}
+
+#struktur .card-img-top {
+    height: 250px;
+    width: 250px;
+}
+
+#struktur .card-body {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
+}
+
+#struktur .row-2 {
     margin-top: 50px;
 }
 
@@ -953,22 +1008,100 @@ a.telepon:hover, a.email:hover {
     margin-top: 50px;
 }
 
+#kepsek .card {
+    border-style: none;
+}
+
+#kepsek .card-img-top {
+    height: 350px;
+    width: 350px;
+}
+
+#kepsek .card-body {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
+}
+
+#kepsek h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #15477A;
+}
+
+#kepsek p {
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
+}
+
 /* css untuk guru.html */
 
 #guru h2.title {
     margin-top: 50px;
 }
 
+#guru .card {
+    border-style: none;
+}
+
+#guru .card-img-top {
+    height: 250px;
+    width: 250px;
+}
+
+#guru .card-body {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
+}
+
 /* css untuk alumni.html */
 
-#alumni h2.title {
+#alumni2 h2.title {
     margin-top: 50px;
+}
+
+#alumni2 .card {
+    border-style: none;
+}
+
+#alumni2 .card-img-top {
+    height: 250px;
+    width: 250px;
+}
+
+#alumni2 .card-body {
+    color: gray;
+}
+
+#alumni2 .card-body {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #555;
 }
 
 /* css untuk sarana_prasarana.html */
 
 #sarana h2.title {
     margin-top: 50px;
+}
+
+#sarana .container-2 {
+    margin-bottom: 100px;
+}
+
+#sarana .col-item-kanan {
+    padding: 20px 30px 20px 20px;
+}
+
+#sarana h3 {
+    font-size: 25px;
+}
+
+#sarana p {
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* css untuk ekstrakulikuler.html */
@@ -981,6 +1114,19 @@ a.telepon:hover, a.email:hover {
     margin-bottom: 100px;
 }
 
+#ekskul .col-item-kanan {
+    padding: 20px 30px 20px 20px;
+}
+
+#ekskul h3 {
+    font-size: 25px;
+}
+
+#ekskul p {
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /* css untuk prestasi.html */
 
 #prestasi h2.title {
@@ -991,10 +1137,23 @@ a.telepon:hover, a.email:hover {
     margin-bottom: 100px;
 }
 
+#prestasi h3 {
+    font-size: 20px;
+}
+
+#prestasi p {
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /* css untuk berita_sekolah.html */
 
 #berita h2.title {
     margin-top: 50px;
+}
+
+#berita .container-2 {
+    margin-bottom: 100px;
 }
 
 /* css untuk pengumuman.html */
@@ -1003,16 +1162,142 @@ a.telepon:hover, a.email:hover {
     margin-top: 50px;
 }
 
+#pengumuman {
+    margin-top: 50px;
+}
+
+#pengumuman .row {
+    margin-bottom: 50px;
+}
+
+.section-thumbnail {
+    width: 100%;
+    height: 237px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-thumbnail .tanggal {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 10;
+    background-color: #15477A;
+    color: #F2C808;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.section-thumbnail .tanggal span {
+    margin: 0;
+    padding: 0;
+}
+
+.section-thumbnail .tanggal span.tgl {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.section-thumbnail .tanggal span.tgl-2 {
+    font-size: 10px;
+}
+
+#pengumuman .section-content {
+    padding: 20px 0 0;
+}
+
+#pengumuman .section-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #15477A;
+    line-height: 24px;
+}
+
+#pengumuman .section-content p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+}
+
+#pengumuman .section-content p .more {
+    color: #15477A;
+    font-weight: 500;
+}
+
+.section-meta a {
+    background-color: #15477A;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.section-meta a i {
+    margin-right: 5px;
+}
+
 /* css untuk agenda.html */
 
 #agenda h2.title {
     margin-top: 50px;
 }
 
+#agenda .fc-button {
+    background-color: #15477A;
+}
+
+#agenda .fc-button:hover {
+    background-color: #F2C808;
+    color: #15477A;
+}
+
+#agenda h2.fc-toolbar-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #15477A;
+}
+
+#calendar {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 10px;
+}
+
 /* css untuk kalender_akademik.html */
 
 #kalender h2.title {
     margin-top: 50px;
+}
+
+#kalender h2.fc-toolbar-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #15477A;
+}
+
+#kalender .fc-button {
+    background-color: #15477A;
+}
+
+#kalender .fc-button:hover {
+    background-color: #F2C808;
+    color: #15477A;
+}
+
+#calendar {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 10px;
 }
 
 /* css untuk galeri_foto.html */
@@ -1054,12 +1339,4 @@ a.telepon:hover, a.email:hover {
     width: 1280px;
     margin-top: 50px;
     margin-right: 65px;
-}
-
-/* kalender_akademik.html */
-
-#calendar {
-    max-width: 1100px;
-    margin: 40px auto;
-    padding: 0 10px;
 }
