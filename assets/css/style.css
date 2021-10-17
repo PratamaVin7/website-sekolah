@@ -1,5 +1,5 @@
 body {
-    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a, a:hover {
@@ -9,7 +9,7 @@ a, a:hover {
 /* css untuk section topbar */
 
 #topbar {
-    background-color: #15477A;
+    background-color: #49C5E8;
     height: 50px;
     line-height: 50px;
     font-size: 12px;
@@ -43,7 +43,7 @@ a, a:hover {
 }
 
 #topbar li a i {
-    color: #F2C808;
+    color: #FFFD00;
     margin-right: 5px;
 }
 
@@ -73,7 +73,7 @@ header .brand .brand-title {
 header .brand h1 {
     font-size: 25px;
     font-weight: 600;
-    color: #15477a;
+    color: #49C5E8;
 }
 
 header .brand-title h4 { 
@@ -99,14 +99,14 @@ header .row {
 
 .btn.btn-utama,
 a.btn.btn-utama {
-    color: #F2C808;
-    background-color: #15477A;
+    color: #FFFD00;
+    background-color: #49C5E8;
 }
 
 .btn.btn-utama:hover,
 a.btn.btn-utama:hover {
-    background-color: #012d5a;
-    color: #F2C808;
+    background-color: #FFFD00;
+    color: #49C5E8;
 }
 
 #tombol-cari {
@@ -118,7 +118,7 @@ a.btn.btn-utama:hover {
 /* css untuk section menu */
 
 nav.bg-primary {
-    background-color: #15477A!important;
+    background-color: #49C5E8!important;
 }
 
 nav.navbar {
@@ -139,12 +139,12 @@ nav.navbar {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-    background-color: #F2C808;
-    color: #15477A;
+    background-color: #FFFD00;
+    color: #49C5E8;
 }
 
 .dropdown-menu {
-    background-color: #15477A;
+    background-color: #49C5E8;
 }
 
 .dropdown-item {
@@ -152,7 +152,7 @@ nav.navbar {
 }
 
 .dropdown-item:hover {
-    background-color: #15477A;
+    background-color: #49C5E8;
     color: rgba(255,255,255,.75);
 }
 
@@ -169,7 +169,7 @@ nav.navbar {
     top: 50%;
     /* transform: translateY(-50%); */
     z-index: 10;
-    background-color: #15477A;
+    background-color: #49C5E8;
     color: #fff;
     padding: 12px 25px;
     border: none;
@@ -191,7 +191,8 @@ nav.navbar {
 #hero-area-nav .owl-prev:hover,
 #hero-area-nav .owl-next:hover {
     cursor: pointer;
-    background-color: #F2C808;
+    background-color: #FFFD00;
+    color: #49C5E8;
 }
 
 #hero-area .hero-area-item img {
@@ -225,7 +226,7 @@ nav.navbar {
 }
 
 #sambutan h2 {
-    color: #15477A;
+    color: #49C5E8;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -233,16 +234,22 @@ nav.navbar {
 }
 
 #sambutan h3 {
-    color: #15477A;
+    color: #49C5E8;
     font-size: 28px;
     font-weight: 500;
 }
 
 #sambutan p {
-    font-size: 14px;
-    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
+    color: #666;
     line-height: 28px;
+}
+
+#sambutan .btn-utama:hover {
+    background-color: #FFFD00;
+    color: #49C5E8;
 }
 
 /* css untuk section prestasi */
@@ -281,7 +288,7 @@ nav.navbar {
     margin: 0 auto;
     font-size: 30px;
     text-transform: uppercase;
-    color: #15477A;
+    color: #49C5E8;
     font-weight: 600;
 }
 
@@ -290,7 +297,7 @@ nav.navbar {
     content: "";
     width: 60%;
     height: 3px;
-    background-color: #F2C808;
+    background-color: #FFFD00;
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
@@ -304,7 +311,7 @@ nav.navbar {
 
 .section-item-title h3 {
     font-size: 18px;
-    color: #15477A;
+    color: #49C5E8;
     line-height: 25px;
     font-weight: 600;
     padding-right: 40px;
@@ -349,17 +356,17 @@ section:nth-of-type(2n) {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #15477A;
+    color: #49C5E8;
     text-align: center;
     display: inline-block;
-    border: 2px solid #15477A;
+    border: 2px solid #49C5E8;
     border-radius: 0;
     padding: 10px 40px;
     transition: background-color 0.3s;
 }
 
 .btn.btn-more:hover {
-    background-color: #15477A;
+    background-color: #49C5E8;
     color: #fff;
 }
 
@@ -389,14 +396,14 @@ section:nth-of-type(2n) {
 }
 
 .section-item-caption h5 {
-    color: #15477A;
+    color: #49C5E8;
     font-size: 18px;
     font-weight: 600;
 }
 
 .section-item-caption h6 {
     font-size: 14px;
-    color: #F2C808;
+    color: #FFFD00;
     text-transform: uppercase;
 }
 
@@ -414,7 +421,7 @@ section:nth-of-type(2n) {
     transform: translateY(-50%);
     right: -60px;
     z-index: 20;
-    background-color: #15477A;
+    background-color: #49C5E8;
     border: none;
     height: 35px;
     width: 35px;
@@ -435,14 +442,14 @@ section:nth-of-type(2n) {
 #slider-tools-3 .owl-next:hover,
 #slider-tools-3 .owl-prev:hover {
     cursor: pointer;
-    background-color: #F2C808;
-    color: #000;
+    background-color: #FFFD00;
+    color: #49C5E8;
 }
 
 /* css untuk section alumni */
 
 #alumni {
-    background-color: #15477A;
+    background-color: #49C5E8;
     padding: 80px 0;
 }
 
@@ -464,7 +471,7 @@ section:nth-of-type(2n) {
 #alumni .section-item-content h3 {
     font-size: 18px;
     font-weight: 500;
-    color: #F2C808;
+    color: #FFFD00;
 }
 
 #alumni .section-item-content p {
@@ -474,7 +481,7 @@ section:nth-of-type(2n) {
 }
 
 #alumni .section-item-content .more {
-    color: #F2C808;
+    color: #FFFD00;
 }
 
 #alumni .section-item-content .more i {
@@ -489,19 +496,20 @@ section:nth-of-type(2n) {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-    background-color: #15477A;
+    background-color: #49C5E8;
     color: #fff;
     text-align: center;
     display: inline-block;
-    border: 2px solid #F2C808;
+    border: 2px solid #fff;
     border-radius: 0;
     padding: 10px 40px;
     transition: background-color 0.3s;
 }
 
 #alumni .btn.btn-more:hover {
-    background-color: #F2C808;
-    color: #15477A;
+    background-color: #FFFD00;
+    color: #49C5E8;
+    border-color: #FFFD00;
 }
 
 .foto-alumni {
@@ -517,6 +525,7 @@ section:nth-of-type(2n) {
 #slider-tools-2 .owl-prev {
     position: absolute;
     background-color: #fff;
+    color: #000;
     top: 50%;
     right: -50px;
     z-index: 20;
@@ -536,7 +545,8 @@ section:nth-of-type(2n) {
 #slider-tools-2 .owl-prev:hover,
 #slider-tools-2 .owl-next:hover {
     cursor: pointer;
-    background-color: #F2C808;
+    background-color: #FFFD00;
+    color: #49C5E8;
 }
 
 /* css untuk section galeri */
@@ -665,19 +675,20 @@ section:nth-of-type(2n) {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-    background-color: #15477A;
-    color: #fff;
+    background-color: #49C5E8;
+    color: #FFFD00;
     text-align: center;
     display: inline-block;
-    border: 2px solid #F2C808;
+    border: 2px solid #FFFD00;
     border-radius: 0;
     padding: 10px 40px;
     transition: background-color 0.3s;
 }
 
 #ekstrakulikuler .btn.btn-more:hover {
-    background-color: #F2C808;
-    color: #15477A;
+    background-color: #FFFD00;
+    color: #49C5E8;
+    border-style: none;
 }
 
 /* css untuk section berita */
@@ -704,8 +715,8 @@ section:nth-of-type(2n) {
     bottom: 10px;
     left: 10px;
     z-index: 10;
-    background-color: #15477A;
-    color: #F2C808;
+    background-color: #49C5E8;
+    color: #FFFD00;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -733,7 +744,7 @@ section:nth-of-type(2n) {
 #berita .section-content h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #15477A;
+    color: #49C5E8;
     line-height: 24px;
 }
 
@@ -744,12 +755,12 @@ section:nth-of-type(2n) {
 }
 
 #berita .section-content p .more {
-    color: #15477A;
+    color: #49C5E8;
     font-weight: 500;
 }
 
 .section-meta a {
-    background-color: #15477A;
+    background-color: #49C5E8;
     color: #fff;
     padding: 5px 15px;
     font-size: 11px;
@@ -769,7 +780,7 @@ section:nth-of-type(2n) {
 
 footer {
     color: #fff;
-    background-color: #15477A;
+    background-color: #49C5E8;
     padding: 80px 0 0;
 }
 
@@ -798,7 +809,7 @@ footer .tentang {
     font-size: 14px;
     line-height: 26px;
     padding-bottom: 15px;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 footer .sosmed {
@@ -833,7 +844,7 @@ a.telepon, a.email {
 }
 
 a.telepon:hover, a.email:hover {
-    border-bottom: 1px dashed #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .footer-col h2 {
@@ -881,7 +892,7 @@ a.telepon:hover, a.email:hover {
 }
 
 .footer-col .footer-nav a:hover {
-    border-bottom: 1px dashed #fff;
+    border-bottom: 1px solid #fff;
     
 }
 
@@ -896,9 +907,13 @@ a.telepon:hover, a.email:hover {
 
 .footer-copyright h6 {
     font-size: 16px;
-    color: #CECECE;
+    color: #fff;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2.title {
+    margin-top: 25px;
 }
 
 /* css untuk scroll to top button */
@@ -911,10 +926,10 @@ a.telepon:hover, a.email:hover {
     height: 50px;
     width: 50px;
     line-height: 50px;
-    background-color: #F2C808;
+    background-color: #FFFD00;
     opacity: 0.6;
     text-align: center;
-    color: #000;
+    color: #49C5E8;
     font-size: 25px;
     z-index: 99;
     transition: 0.3s;
@@ -992,14 +1007,18 @@ a.telepon:hover, a.email:hover {
 
 #visimisi .card-header  {
     font-size: 20px;
-    font-weight: 400;
-    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    background-color: #49C5E8;
 }
 
-#visimisi p {
+#visimisi .card-body {
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Monstserrat', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+    background-color: #FFFD00;
 }
 
 /* css untuk kepala_sekolah.html */
@@ -1026,7 +1045,7 @@ a.telepon:hover, a.email:hover {
 #kepsek h3 {
     font-size: 30px;
     font-weight: 600;
-    color: #15477A;
+    color: #49C5E8;
 }
 
 #kepsek p {
@@ -1188,8 +1207,8 @@ a.telepon:hover, a.email:hover {
     bottom: 10px;
     left: 10px;
     z-index: 10;
-    background-color: #15477A;
-    color: #F2C808;
+    background-color: #49C5E8;
+    color: #FFFD00;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -1217,7 +1236,7 @@ a.telepon:hover, a.email:hover {
 #pengumuman .section-content h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #15477A;
+    color: #49C5E8;
     line-height: 24px;
 }
 
@@ -1228,12 +1247,12 @@ a.telepon:hover, a.email:hover {
 }
 
 #pengumuman .section-content p .more {
-    color: #15477A;
+    color: #49C5E8;
     font-weight: 500;
 }
 
 .section-meta a {
-    background-color: #15477A;
+    background-color: #49C5E8;
     color: #fff;
     padding: 5px 15px;
     font-size: 11px;
@@ -1251,19 +1270,21 @@ a.telepon:hover, a.email:hover {
 }
 
 #agenda .fc-button {
-    background-color: #15477A;
+    background-color: #49C5E8;
+    border-color: #fff;
 }
 
 #agenda .fc-button:hover {
-    background-color: #F2C808;
-    color: #15477A;
+    background-color: #FFFD00;
+    color: #49C5E8;
+    border-color: #49C5E8;
 }
 
 #agenda h2.fc-toolbar-title {
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #15477A;
+    color: #49C5E8;
 }
 
 #calendar {
@@ -1282,16 +1303,18 @@ a.telepon:hover, a.email:hover {
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #15477A;
+    color: #49C5E8;
 }
 
 #kalender .fc-button {
-    background-color: #15477A;
+    background-color: #49C5E8;
+    border-color: #fff;
 }
 
 #kalender .fc-button:hover {
-    background-color: #F2C808;
-    color: #15477A;
+    background-color: #FFFD00;
+    color: #49C5E8;
+    border-color: #49C5E8;
 }
 
 #calendar {
@@ -1306,10 +1329,30 @@ a.telepon:hover, a.email:hover {
     margin-top: 50px;
 }
 
+#foto .row {
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+picture .img-thumbnail {
+    width: 350px;
+    height: 350px;
+}
+
 /* css untuk galeri_video.html */
 
 #video h2.title {
     margin-top: 50px;
+}
+
+#video .row {
+    margin-bottom: 50px;
+}
+
+#video iframe.video {
+    margin-left: 15px;
+    width: 400px;
+    height: 300px;
 }
 
 /* css untuk kontak.html */
@@ -1324,8 +1367,8 @@ a.telepon:hover, a.email:hover {
 
 #kontak .card-body {
     height: 150px;
-    background-color: #15477A;
-    color: #F2C808;
+    background-color: #49C5E8;
+    color: #FFFD00;
     text-align: center;
 }
 
