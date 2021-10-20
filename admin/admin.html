@@ -12,8 +12,7 @@
     <title>Admin | SMPN 32 BANDUNG</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="/assets/logosmpn32bdg.ico/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/assets/logosmpn32bdg.ico/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -23,6 +22,9 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -36,8 +38,8 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-school"></i>
+                <div class="sidebar-brand-icon">
+                    <img src="/assets/img/footer.png" alt="">
                 </div>
                 <div class="sidebar-brand-text mx-3">SMPN 32 BANDUNG</div>
             </a>
@@ -59,6 +61,13 @@
             <div class="sidebar-heading">
                 Navigasi
             </div>
+
+            <!-- Nav Item - Beranda -->
+            <li class="nav-item">
+                <a class="nav-link" href="beranda.html">
+                    <i class="fas fa-fw fa-home"></i>
+                    <span>Beranda</span></a>
+            </li>
 
             <!-- Nav Item - Pages Collapse Menu Profil -->
             <li class="nav-item">
@@ -336,11 +345,11 @@
     <script src="js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
+    <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 

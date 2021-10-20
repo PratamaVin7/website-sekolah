@@ -167,7 +167,6 @@ nav.navbar {
 #hero-area-nav .owl-next {
     position: absolute;
     top: 50%;
-    /* transform: translateY(-50%); */
     z-index: 10;
     background-color: #49C5E8;
     color: #fff;
@@ -297,7 +296,7 @@ nav.navbar {
     content: "";
     width: 60%;
     height: 3px;
-    background-color: #FFFD00;
+    background-color: #0ED500;
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
@@ -403,7 +402,7 @@ section:nth-of-type(2n) {
 
 .section-item-caption h6 {
     font-size: 14px;
-    color: #FFFD00;
+    color: #0ED500;
     text-transform: uppercase;
 }
 
@@ -470,6 +469,12 @@ section:nth-of-type(2n) {
 
 #alumni .section-item-content h3 {
     font-size: 18px;
+    font-weight: 500;
+    color: #FFFD00;
+}
+
+#alumni .section-item-content h4 {
+    font-size: 16px;
     font-weight: 500;
     color: #FFFD00;
 }
@@ -570,7 +575,6 @@ section:nth-of-type(2n) {
 }
 
 #ekstrakulikuler .section-body-item1 {
-    /* display: flex; */
     background-color: red;
     border-radius: 5px;
     padding: 20px;
@@ -580,11 +584,9 @@ section:nth-of-type(2n) {
     vertical-align: middle;
     align-items: center;
     font-size: 25px;
-    /* box-sizing: border-box; */
 }
 
 #ekstrakulikuler .section-body-item2 {
-    /* display: flex; */
     background-color: orange;
     border-radius: 5px;
     padding: 20px;
@@ -594,11 +596,9 @@ section:nth-of-type(2n) {
     vertical-align: middle;
     align-items: center;
     font-size: 25px;
-    /* box-sizing: border-box; */
 }
 
 #ekstrakulikuler .section-body-item3 {
-    /* display: flex; */
     background-color: yellow;
     border-radius: 5px;
     padding: 20px;
@@ -608,11 +608,9 @@ section:nth-of-type(2n) {
     vertical-align: middle;
     align-items: center;
     font-size: 25px;
-    /* box-sizing: border-box; */
 }
 
 #ekstrakulikuler .section-body-item4 {
-    /* display: flex; */
     background-color: green;
     border-radius: 5px;
     padding: 20px;
@@ -622,11 +620,9 @@ section:nth-of-type(2n) {
     vertical-align: middle;
     align-items: center;
     font-size: 25px;
-    /* box-sizing: border-box; */
 }
 
 #ekstrakulikuler .section-body-item5 {
-    /* display: flex; */
     background-color: blue;
     border-radius: 5px;
     padding: 20px;
@@ -636,11 +632,9 @@ section:nth-of-type(2n) {
     vertical-align: middle;
     align-items: center;
     font-size: 25px;
-    /* box-sizing: border-box; */
 }
 
 #ekstrakulikuler .section-body-item6 {
-    /* display: flex; */
     background-color: cyan;
     border-radius: 5px;
     padding: 20px;
@@ -650,7 +644,6 @@ section:nth-of-type(2n) {
     vertical-align: middle;
     align-items: center;
     font-size: 25px;
-    /* box-sizing: border-box; */
 }
 
 #ekstrakulikuler .section-body-item h4 {
@@ -688,7 +681,6 @@ section:nth-of-type(2n) {
 #ekstrakulikuler .btn.btn-more:hover {
     background-color: #FFFD00;
     color: #49C5E8;
-    border-style: none;
 }
 
 /* css untuk section berita */
@@ -759,7 +751,7 @@ section:nth-of-type(2n) {
     font-weight: 500;
 }
 
-.section-meta a {
+.section-meta span {
     background-color: #49C5E8;
     color: #fff;
     padding: 5px 15px;
@@ -767,7 +759,7 @@ section:nth-of-type(2n) {
     text-transform: uppercase;
 }
 
-.section-meta a i {
+.section-meta span i {
     margin-right: 5px;
 }
 
@@ -939,7 +931,18 @@ h2.title {
     opacity: 1;
 }
 
+/* css untuk profil_sekolah.html */
+
+#profil h2 {
+    margin-top: 50px;
+}
+
+#profil .row {
+    margin-bottom: 50px;
+}
+
 /* css untuk sejarah_sekolah.html */
+
 #sejarah {
     margin-bottom: 100px;
 }
@@ -995,6 +998,14 @@ h2.title {
     margin-top: 50px;
 }
 
+#struktur h5 {
+    color: #49C5E8;
+}
+
+#struktur p {
+    color: #0ED500;
+}
+
 /* css untuk visi_misi.html */
 
 #visimisi {
@@ -1038,6 +1049,7 @@ h2.title {
 
 #kepsek .card-body {
     font-size: 15px;
+    font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
 }
@@ -1048,10 +1060,18 @@ h2.title {
     color: #49C5E8;
 }
 
-#kepsek p {
+#kepsek .col-md-8 p {
     font-size: 20px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
+}
+
+#kepsek h5 {
+    color: #49C5E8;
+}
+
+#kepsek p.card-text {
+    color: #0ED500;
 }
 
 /* css untuk guru.html */
@@ -1073,6 +1093,14 @@ h2.title {
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
+}
+
+#guru h5 {
+    color: #49C5E8;
+}
+
+#guru p {
+    color: #0ED500;
 }
 
 /* css untuk alumni.html */
@@ -1098,6 +1126,14 @@ h2.title {
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
+}
+
+#alumni2 h5 {
+    color: #49C5E8;
+}
+
+#alumni2 h6 {
+    color: #0ED500;
 }
 
 /* css untuk sarana_prasarana.html */
@@ -1329,14 +1365,21 @@ h2.title {
     margin-top: 50px;
 }
 
-#foto .row {
-    margin-left: 150px;
+#foto .col-md-10 {
+    margin-left: 100px;
     margin-bottom: 50px;
 }
 
-picture .img-thumbnail {
-    width: 350px;
-    height: 350px;
+#foto .card-body {
+    text-align: center;
+}
+
+#foto h5.card-title {
+    color: #49C5E8;
+}
+
+#foto p.card-text {
+    color: #0ED500;
 }
 
 /* css untuk galeri_video.html */
@@ -1365,10 +1408,16 @@ picture .img-thumbnail {
     margin-top: 50px;
 }
 
+#kontak .row-2 {
+    padding-left: 50px;
+}
+
 #kontak .card-body {
     height: 150px;
     background-color: #49C5E8;
     color: #FFFD00;
+    font-size: 17px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -1377,9 +1426,8 @@ picture .img-thumbnail {
     padding-top: 40px;
 }
 
-#kontak iframe {
-    height: 720px;
-    width: 1280px;
-    margin-top: 50px;
-    margin-right: 65px;
+#kontak .col-md-12 iframe {
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
 }
