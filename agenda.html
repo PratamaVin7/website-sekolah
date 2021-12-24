@@ -6,18 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie-edge">
   <title>Agenda | SMPN 32 BANDUNG</title>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
   <!-- bootstrap -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <!-- owl carousel -->
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <!-- font awesome / icon -->
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <!-- font awesome -->
   <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-  <!-- style css custom kita -->
-  <link rel="stylesheet" href="assets/css/style.css">
   <!-- fullcalendar -->
   <link rel="stylesheet" href="assets/lib/main.css">
+  <!-- lightbox -->
+  <link rel="stylesheet" href="assets/css/lightbox.min.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <!-- section topbar -->
@@ -26,7 +28,7 @@
     <div class="row">
       <div class="col-md-9">
         <ul class="top-nav kiri">
-          <li><a href="tel:+62226072410"><i class="fas fa-phone"></i>(022) 6072410</a></li>
+          <li><a href="https://wa.me/085764027497"><i class="fab fa-whatsapp"></i>PPID SMPN 32 BANDUNG</a></li>
           <li><a href="mailto:kontak@smpn32bdg.sch.id"><i class="fas fa-envelope"></i>kontak@smpn32bdg.sch.id</a></li>
           <li><a href="kontak.html"><i class="fas fa-map"></i>Jl. Arjuna No.18, Ciroyom, Kec. Andir, Kota Bandung, Jawa Barat</a></li>
         </ul>
@@ -82,8 +84,10 @@
                 <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="profil.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil</a>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil</a>
                 <div class="dropdown-menu">
+                  <a class="dropdown-item" href="profil.html">PROFIL SEKOLAH</a>
+
                   <a class="dropdown-item" href="sejarah_sekolah.html">SEJARAH SEKOLAH</a>
                   <a class="dropdown-item" href="identitas_sekolah.html">IDENTITAS SEKOLAH</a>
                   <a class="dropdown-item" href="struktur_organisasi.html">STRUKTUR ORGANISASI</a>
@@ -103,8 +107,10 @@
                 <a class="nav-link" href="prestasi.html">Prestasi</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="berita_sekolah.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita</a>
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita</a>
                 <div class="dropdown-menu">
+                  <a class="dropdown-item" href="berita_sekolah.html">BERITA SEKOLAH</a>
+
                   <a class="dropdown-item" href="pengumuman.html">PENGUMUMAN</a>
                   <a class="dropdown-item" href="agenda.html">AGENDA</a>
                   <a class="dropdown-item" href="kalender_akademik.html">KALENDER AKADEMIK</a>
@@ -123,7 +129,7 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
   </header>
 
   <!-- section agenda -->
@@ -198,7 +204,7 @@
             <h2>Kontak Kami</h2>
             <p class="alamat">Jl. Arjuna No.18, Ciroyom, Kec. Andir, Kota Bandung, Jawa Barat 40182</p>
             <ul class="kontak">
-              <li><i class="fas fa-phone"></i> Telp/Fax : <a href="tel:+62226072410" class="telepon">022-607-241-0</a></li>
+              <li><i class="fab fa-whatsapp"></i> Whatsapp : <a href="https://wa.me/085764027497" class="wa">PPID SMPN 32 BANDUNG</a></li>
               <li><i class="fas fa-envelope"></i> Email :  <a href="mailto:kontak@smpn32bdg.sch.id" class="email">kontak@smpn32bdg.sch.id</a></li>
             </ul>
           </div>
@@ -207,13 +213,13 @@
           <div class="footer-col">
             <h2>Navigasi</h2>
             <ul class="footer-nav">
-              <li><a href="#">Profil</a></li>
-              <li><a href="#">Sarana & Prasarana</a></li>
-              <li><a href="#">Ekstrakulikuler</a></li>
-              <li><a href="#">Prestasi</a></li>
-              <li><a href="#">Berita</a></li>
-              <li><a href="#">Galeri</a></li>
-              <li><a href="#">Kontak</a></li>
+              <li><a href="profil.html">Profil</a></li>
+              <li><a href="sarana_prasarana.html">Sarana & Prasarana</a></li>
+              <li><a href="ekstrakulikuler.html">Ekstrakulikuler</a></li>
+              <li><a href="prestasi.html">Prestasi</a></li>
+              <li><a href="berita_sekolah.html">Berita</a></li>
+              <li><a href="galeri_foto.html">Galeri</a></li>
+              <li><a href="kontak.html">Kontak</a></li>
             </ul>
           </div>
         </div>
@@ -227,23 +233,22 @@
   </footer>
 
   <!-- scroll to top button -->
-  <div id="scroll-to-top">
-    <a style="display: block;" href="">
-      <i class="fas fa-angle-up"></i>
-    </a>
-  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
 
   <!-- jquery -->
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
   <!-- bootstrap -->
   <script src="assets/js/bootstrap.min.js"></script>
-  <!-- owl carousel -->
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <!-- javascript custom -->
-  <script src="assets/js/main.js"></script>    
+  <!-- custom javascript -->
+  <script src="assets/js/main.js"></script>
   <!-- fullcalendar -->
   <script src="assets/lib/main.js"></script>
   <script src="assets/lib/locales-all.js"></script>
+  <!-- lightbox -->
+  <script src="assets/js/lightbox.min.js"></script>  
+  <!-- owl carousel -->
+  <script src="assets/js/owl.carousel.min.js"></script>    
               
 </body>
+
 </html>

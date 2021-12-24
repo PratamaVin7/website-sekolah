@@ -10,8 +10,8 @@ a, a:hover {
 
 #topbar {
     background-color: #49C5E8;
-    height: 50px;
-    line-height: 50px;
+    height: 100px;
+    line-height: 20px;
     font-size: 12px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -19,6 +19,15 @@ a, a:hover {
 
 #topbar .top-nav {
     padding: 0;
+}
+
+#topbar .top-nav.kiri {
+    text-align: left;
+    display: grid;
+}
+
+#topbar .top-nav.kanan {
+    text-align: center;
 }
 
 #topbar .top-nav li {
@@ -91,10 +100,13 @@ header .col-md-4 {
 
 header form {
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 150px;
 }
 
 header .row {
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .btn.btn-utama,
@@ -126,6 +138,12 @@ nav.navbar {
     height: 50px;
 }
 
+.navbar-nav {
+    position: relative;
+    background-color: #49C5E8;
+    z-index: 9999;
+} 
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 15px 20px;
     color: #fff;
@@ -153,7 +171,7 @@ nav.navbar {
 
 .dropdown-item:hover {
     background-color: #49C5E8;
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255, .75);
 }
 
 /* css untuk section hero area */
@@ -161,6 +179,7 @@ nav.navbar {
 #hero-area {
     position: relative;
     min-height: 500px;
+    z-index: 9998;
 }
 
 #hero-area-nav .owl-prev,
@@ -170,7 +189,7 @@ nav.navbar {
     z-index: 10;
     background-color: #49C5E8;
     color: #fff;
-    padding: 12px 25px;
+    padding: 5px 10px;
     border: none;
     font-size: 20px;
     outline: none;
@@ -236,6 +255,7 @@ nav.navbar {
     color: #49C5E8;
     font-size: 28px;
     font-weight: 500;
+    padding-top: 30px;
 }
 
 #sambutan p {
@@ -330,6 +350,10 @@ nav.navbar {
     margin-right: 15px;
 }
 
+.section-item-meta {
+    display: grid;
+}
+
 .section-item-body p {
     font-size: 12px;
     line-height: 25px;
@@ -372,13 +396,14 @@ section:nth-of-type(2n) {
 /* css untuk slider */
 
 .section-item-slider {
-    height: 380px;
+    height: 300px;
+    width: 150px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     position: relative;
 }
 
 #guru-staf .foto-guru {
-    height: 100%;
+    height: 65%;
     object-fit: cover;
 }
 
@@ -418,7 +443,7 @@ section:nth-of-type(2n) {
     content: "";
     top: 50%;
     transform: translateY(-50%);
-    right: -60px;
+    right: -15px;
     z-index: 20;
     background-color: #49C5E8;
     border: none;
@@ -433,7 +458,7 @@ section:nth-of-type(2n) {
 
 #slider-tools-1 .owl-prev,
 #slider-tools-3 .owl-prev {
-    left: -60px;
+    left: -15px;
 }
 
 #slider-tools-1 .owl-next:hover,
@@ -463,11 +488,13 @@ section:nth-of-type(2n) {
 }
 
 #alumni .section-item-slider {
-    height: 276px;
+    height: 100%;
+    width: 100%;
     padding: 20px;
 }
 
 #alumni .section-item-content h3 {
+    padding-top: 10px;
     font-size: 18px;
     font-weight: 500;
     color: #FFFD00;
@@ -483,14 +510,6 @@ section:nth-of-type(2n) {
     font-size: 14px;
     color: #fff;
     line-height: 26px;
-}
-
-#alumni .section-item-content .more {
-    color: #FFFD00;
-}
-
-#alumni .section-item-content .more i {
-    margin-left: 10px;
 }
 
 #alumni .tombol-selengkapnya {
@@ -529,10 +548,10 @@ section:nth-of-type(2n) {
 #slider-tools-2 .owl-next,
 #slider-tools-2 .owl-prev {
     position: absolute;
-    background-color: #fff;
-    color: #000;
+    background-color: #0ED500;
+    color: #fff;
     top: 50%;
-    right: -50px;
+    right: -15px;
     z-index: 20;
     border: none;
     height: 35px;
@@ -544,7 +563,7 @@ section:nth-of-type(2n) {
 }
 
 #slider-tools-2 .owl-prev {
-    left: -50px;
+    left: -15px;
 }
 
 #slider-tools-2 .owl-prev:hover,
@@ -556,8 +575,13 @@ section:nth-of-type(2n) {
 
 /* css untuk section galeri */
 
+#galeri .foto-galeri {
+    height: 65%;
+    object-fit: cover;
+}
+
 .video-galeri {
-    height: 80%;
+    height: 50%;
     width: 100%;
     object-fit: cover;
 }
@@ -574,71 +598,15 @@ section:nth-of-type(2n) {
     padding: 80px 0;
 }
 
+#ekstrakulikuler .col-md-4 {
+    padding-bottom: 30px;
+}
+
 #ekstrakulikuler .section-body-item1 {
-    background-color: red;
+    background-color: #49C5E8;
     border-radius: 5px;
     padding: 20px;
-    color: cyan;
-    height: 200px;
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
-    font-size: 25px;
-}
-
-#ekstrakulikuler .section-body-item2 {
-    background-color: orange;
-    border-radius: 5px;
-    padding: 20px;
-    color: blue;
-    height: 200px;
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
-    font-size: 25px;
-}
-
-#ekstrakulikuler .section-body-item3 {
-    background-color: yellow;
-    border-radius: 5px;
-    padding: 20px;
-    color: green;
-    height: 200px;
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
-    font-size: 25px;
-}
-
-#ekstrakulikuler .section-body-item4 {
-    background-color: green;
-    border-radius: 5px;
-    padding: 20px;
-    color: yellow;
-    height: 200px;
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
-    font-size: 25px;
-}
-
-#ekstrakulikuler .section-body-item5 {
-    background-color: blue;
-    border-radius: 5px;
-    padding: 20px;
-    color: orange;
-    height: 200px;
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
-    font-size: 25px;
-}
-
-#ekstrakulikuler .section-body-item6 {
-    background-color: cyan;
-    border-radius: 5px;
-    padding: 20px;
-    color: red;
+    color: #fff;
     height: 200px;
     text-align: center;
     vertical-align: middle;
@@ -668,11 +636,11 @@ section:nth-of-type(2n) {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-    background-color: #49C5E8;
-    color: #FFFD00;
+    background-color: #0ED500;
+    color: #fff;
     text-align: center;
     display: inline-block;
-    border: 2px solid #FFFD00;
+    border: 2px solid #0ED500;
     border-radius: 0;
     padding: 10px 40px;
     transition: background-color 0.3s;
@@ -681,6 +649,7 @@ section:nth-of-type(2n) {
 #ekstrakulikuler .btn.btn-more:hover {
     background-color: #FFFD00;
     color: #49C5E8;
+    border: 2px solid #FFFD00;
 }
 
 /* css untuk section berita */
@@ -691,7 +660,7 @@ section:nth-of-type(2n) {
 
 .section-thumbnail {
     width: 100%;
-    height: 237px;
+    height: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -751,6 +720,10 @@ section:nth-of-type(2n) {
     font-weight: 500;
 }
 
+.section-meta {
+    margin-bottom: 10px;
+}
+
 .section-meta span {
     background-color: #49C5E8;
     color: #fff;
@@ -764,7 +737,7 @@ section:nth-of-type(2n) {
 }
 
 #berita .tombol-selengkapnya {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -774,6 +747,10 @@ footer {
     color: #fff;
     background-color: #49C5E8;
     padding: 80px 0 0;
+}
+
+footer .footer-col {
+    margin-top: 30px;
 }
 
 footer .footer-col:first-of-type {
@@ -831,11 +808,11 @@ footer .sosmed li a:hover {
     color: #666;
 }
 
-a.telepon, a.email {
+a.wa, a.email {
     color: #fff;
 }
 
-a.telepon:hover, a.email:hover {
+a.wa:hover, a.email:hover {
     border-bottom: 1px solid #fff;
 }
 
@@ -910,26 +887,27 @@ h2.title {
 
 /* css untuk scroll to top button */
 
-#scroll-to-top a {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    content: "";
-    height: 50px;
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ffff0081; /* Set a background color */
+    color: #49c6e885; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
     width: 50px;
-    line-height: 50px;
-    background-color: #FFFD00;
-    opacity: 0.6;
-    text-align: center;
-    color: #49C5E8;
-    font-size: 25px;
-    z-index: 99;
-    transition: 0.3s;
-}
-
-#scroll-to-top a:hover {
-    opacity: 1;
-}
+  }
+  
+  #myBtn:hover {
+    background-color: #FFFD00; /* Set a background color */
+    color: #49C5E8; /* Text color */
+  }
 
 /* css untuk profil_sekolah.html */
 
@@ -955,6 +933,7 @@ h2.title {
     font-size: 20px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
+    text-align: justify;
 }
 
 /* css untuk identitas_sekolah.html */
@@ -986,6 +965,10 @@ h2.title {
 #struktur .card-img-top {
     height: 250px;
     width: 250px;
+}
+
+#struktur .card2 img {
+    margin-left: 100px;
 }
 
 #struktur .card-body {
@@ -1040,6 +1023,7 @@ h2.title {
 
 #kepsek .card {
     border-style: none;
+    margin-left: 50px;
 }
 
 #kepsek .card-img-top {
@@ -1060,10 +1044,19 @@ h2.title {
     color: #49C5E8;
 }
 
+#kepsek .col-md-8 {
+    display: inline;
+}
+
+#kepsek .col-md-8 h3 {
+    text-align: center;
+}
+
 #kepsek .col-md-8 p {
     font-size: 20px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
+    text-align: justify;
 }
 
 #kepsek h5 {
@@ -1093,6 +1086,10 @@ h2.title {
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
+}
+
+#guru img {
+    margin-left: 100px;
 }
 
 #guru h5 {
@@ -1126,6 +1123,10 @@ h2.title {
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
+}
+
+#alumni2 img {
+    margin-left: 100px;
 }
 
 #alumni2 h5 {
@@ -1207,8 +1208,12 @@ h2.title {
     margin-top: 50px;
 }
 
-#berita .container-2 {
-    margin-bottom: 100px;
+#berita {
+    margin-top: 50px;
+}
+
+#berita .row {
+    margin-bottom: 50px;
 }
 
 /* css untuk pengumuman.html */
@@ -1305,6 +1310,14 @@ h2.title {
     margin-top: 50px;
 }
 
+#agenda h2.fc-toolbar-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #49C5E8;
+    text-align: center;
+}
+
 #agenda .fc-button {
     background-color: #49C5E8;
     border-color: #fff;
@@ -1316,11 +1329,16 @@ h2.title {
     border-color: #49C5E8;
 }
 
-#agenda h2.fc-toolbar-title {
-    font-size: 30px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #49C5E8;
+#agenda .fc-button-group {
+    display: grid;
+}
+
+#agenda .fc-toolbar-chunk {
+    display: grid;
+}
+
+#agenda .fc-today-button {
+    margin-left: -0.5px;
 }
 
 #calendar {
@@ -1340,6 +1358,7 @@ h2.title {
     font-weight: 600;
     text-transform: uppercase;
     color: #49C5E8;
+    text-align: center;
 }
 
 #kalender .fc-button {
@@ -1351,6 +1370,18 @@ h2.title {
     background-color: #FFFD00;
     color: #49C5E8;
     border-color: #49C5E8;
+}
+
+#kalender .fc-button-group {
+    display: grid;
+}
+
+#kalender .fc-toolbar-chunk {
+    display: grid;
+}
+
+#kalender .fc-today-button {
+    margin-left: -0.5px;
 }
 
 #calendar {
@@ -1365,13 +1396,17 @@ h2.title {
     margin-top: 50px;
 }
 
-#foto .col-md-10 {
-    margin-left: 100px;
+#foto .col-md-12 {
     margin-bottom: 50px;
+}
+
+#foto .card {
+    border-style: none;
 }
 
 #foto .card-body {
     text-align: center;
+    border-style: none;
 }
 
 #foto h5.card-title {
@@ -1388,12 +1423,9 @@ h2.title {
     margin-top: 50px;
 }
 
-#video .row {
-    margin-bottom: 50px;
-}
-
 #video iframe.video {
-    margin-left: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
     width: 400px;
     height: 300px;
 }
@@ -1408,8 +1440,12 @@ h2.title {
     margin-top: 50px;
 }
 
-#kontak .row-2 {
-    padding-left: 50px;
+#kontak .row {
+    margin-left: 65px;
+}
+
+#kontak .card {
+    margin-bottom: 30px;
 }
 
 #kontak .card-body {
@@ -1421,13 +1457,227 @@ h2.title {
     text-align: center;
 }
 
-#kontak .card-body-2 {
-    display: inline-block;
-    padding-top: 40px;
-}
-
 #kontak .col-md-12 iframe {
     width: 100%;
-    height: 700px;
+    height: 600px;
     padding-top: 50px;
+}
+
+/* overlay */
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+    z-index: 9999;
+    transition: .8s;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.7);
+}
+
+.overlay img {
+    max-height: 100%;
+    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+}
+
+.overlay:target img {
+    animation: zoomDanFade 1s;
+}
+
+.overlay .close {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -15px;
+    color: white;
+}
+
+/* animasi */
+@keyframes zoomDanFade {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+
+    /* css untuk section topbar */
+
+    #topbar {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #topbar .top-nav.kiri {
+        display: inline;
+    }
+
+    /* css untuk header */
+
+    header form {
+        padding: 0;
+    }
+
+    header .row {
+        margin-bottom: 30px;
+    }
+
+    /* css untuk hero-area */
+
+    #hero-area-nav .owl-prev,
+    #hero-area-nav .owl-next {
+        padding: 12px 25px;
+    }
+
+    /* css untuk sambutan */
+
+    #sambutan h3 {
+        padding: 0;
+    }
+
+    /* css untuk prestasi */
+    
+    .section-item-meta {
+        display: inline;
+    }
+
+    /* css untuk ekstrakulikuler */
+
+    #ekstrakulikuler .col-md-4 {
+        padding-bottom: 0;
+    }
+
+    /* css untuk guru & staf, galeri */
+
+    .section-item-slider {
+        width: 100%;
+    }
+    
+    #guru-staf .foto-guru {
+        height: 100%;
+    }
+
+    .video-galeri {
+        height: 75%;
+    }
+    
+    /* css untuk slider guru & galeri */
+
+    #slider-tools-1 .owl-next,
+    #slider-tools-1 .owl-prev,
+    #slider-tools-3 .owl-next,
+    #slider-tools-3 .owl-prev {
+        right: -60px;
+    }
+
+    #slider-tools-1 .owl-prev,
+    #slider-tools-3 .owl-prev {
+        left: -60px;
+    }
+
+    /* css untuk alumni */
+
+    #slider-tools-2 .owl-next,
+    #slider-tools-2 .owl-prev {
+        right: -50px;
+    }
+
+    #slider-tools-2 .owl-prev {
+        left: -50px;
+    }
+
+    /* css untuk struktur_organisasi.html */
+
+    #struktur .card2 img {
+        margin-left: 0;
+    }
+
+    /* css untuk kepala_sekolah.html */
+
+    #kepsek .card {
+        margin-left: 0;
+    }
+    
+    #kepsek .col-md-8 h3 {
+        text-align: left;
+    }
+
+    /* css untuk guru.html */
+
+    #guru img {
+        margin-left: 0;
+    }
+
+    /* css untuk alumni.html */
+    
+    #alumni2 img {
+        margin-left: 0;
+    }
+
+    /* css untuk agenda.html */
+    
+    #agenda .fc-button-group {
+        display: inline;
+    }
+    
+    #agenda .fc-toolbar-chunk {
+        display: inline;
+    }
+    
+    #agenda .fc-today-button {
+        margin-left: 0;
+    }
+
+    /* css untuk kalender_akademik.html */
+    
+    #kalender .fc-button-group {
+        display: inline;
+    }
+    
+    #kalender .fc-toolbar-chunk {
+        display: inline;
+    }
+    
+    #kalender .fc-today-button {
+        margin-left: 0;
+    }
+
+    /* css untuk kontak.html */
+    
+    #kontak .row {
+        margin-left: 35px;
+    }
+
+    #kontak .card {
+        margin-bottom: 50px;
+    }
+
+    #kontak .col-md-12 iframe {
+        width: 100%;
+        height: 600px;
+        padding-top: 50px;
+    }
+
+    /* css untuk footer */
+    footer .footer-col {
+        margin-top: 0;
+    }
 }
