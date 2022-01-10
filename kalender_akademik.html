@@ -6,20 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie-edge">
   <title>Kalender Akademik | SMPN 32 BANDUNG</title>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <!-- AOS | Animate On Scroll -->
+  <link rel="stylesheet" href="assets/css/aos.css">
   <!-- bootstrap -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <!-- owl carousel -->
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <!-- font awesome / icon -->
-  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-  <!-- lightbox -->
-  <link rel="stylesheet" href="assets/css/lightbox.min.css">
-  <!-- style css custom kita -->
+  <!-- css custom -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- fancybox -->
+  <link rel="stylesheet" href="assets/css/fancybox.css"/>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
   <!-- fullcalendar -->
   <link rel="stylesheet" href="assets/lib/main.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 </head>
 
 <!-- section topbar -->
@@ -133,10 +135,10 @@
   <!-- section kalender akademik -->
   <section id="kalender">
     <div class="container">
-      <div class="section-title">
+      <div data-aos="fade-down" data-aos-offset="250" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true" class="section-title">
         <h2 class="title">Kalender Akademik</h2>
       </div>
-      <div id="calendar">
+      <div data-aos="zoom-out" data-aos-offset="250" data-aos-delay="1000" data-aos-duration="1500" data-aos-once="true" id="calendar">
         <script>
 
           document.addEventListener('DOMContentLoaded', function() {
@@ -224,17 +226,22 @@
 
   <!-- jquery -->
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <!-- AOS | Animate On Scroll -->
+  <script src="assets/js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- bootstrap -->
   <script src="assets/js/bootstrap.min.js"></script>
-  <!-- owl carousel -->
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <!-- lightbox -->
-  <script src="assets/js/lightbox.min.js"></script>
-  <!-- javascript custom -->
+  <!-- custom javascript -->
   <script src="assets/js/main.js"></script>
+  <!-- fancybox -->
+  <script src="assets/js/fancybox.umd.js"></script>
   <!-- fullcalendar -->
   <script src="assets/lib/main.js"></script>
-  <script src="assets/lib/locales-all.js"></script>
+  <script src="assets/lib/locales-all.js"></script>  
+  <!-- owl carousel -->
+  <script src="assets/js/owl.carousel.min.js"></script>
               
 </body>
 </html>

@@ -6,20 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie-edge">
   <title>Galeri Foto | SMPN 32 BANDUNG</title>
+  <!-- AOS | Animate On Scroll -->
+  <link rel="stylesheet" href="assets/css/aos.css">
   <!-- bootstrap -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- css custom -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- fancybox -->
+  <link rel="stylesheet" href="assets/css/fancybox.css"/>
   <!-- favicon -->
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
   <!-- font awesome -->
   <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
   <!-- fullcalendar -->
   <link rel="stylesheet" href="assets/lib/main.css">
-  <!-- lightbox -->
-  <link rel="stylesheet" href="assets/css/lightbox.min.css">
   <!-- owl carousel -->
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <!-- style css custom -->
-  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <!-- section topbar -->
@@ -133,28 +135,28 @@
   <!-- section galeri foto -->
   <section id="foto">
     <div class="container">
-      <div class="section-title">
+      <div data-aos="fade-down" data-aos-offset="250" data-aos-delay="500" data-aos-duration="1500" data-aos-once="true" class="section-title">
         <h2 class="title">Galeri Foto</h2>
       </div>
     </div>
     <div class="col-md-12">
       <div class="card-deck">
-        <div class="card">
-          <img src="assets/img/galeri-1.jpg" class="card-img-top" alt="...">
+        <div data-aos="zoom-in" data-aos-offset="250" data-aos-delay="1000" data-aos-duration="1500" data-aos-once="true" class="card">
+          <img data-fancybox src="assets/img/qurban.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Qurban 2020</h5>
             <p class="card-text">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/img/galeri-1.jpg" class="card-img-top" alt="...">
+        <div data-aos="zoom-in" data-aos-offset="250" data-aos-delay="1500" data-aos-duration="1500" data-aos-once="true" class="card">
+          <img data-fancybox src="assets/img/osn.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">OSN 2019</h5>
             <p class="card-text">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/img/galeri-1.jpg" class="card-img-top" alt="...">
+        <div data-aos="zoom-in" data-aos-offset="250" data-aos-delay="2000" data-aos-duration="1500" data-aos-once="true" class="card">
+          <img data-fancybox src="assets/img/fl2sn.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">FL2SN 2018</h5>
             <p class="card-text">Lorem ipsum dolor sit amet.</p>
@@ -164,22 +166,22 @@
     </div>
     <div class="col-md-12">
       <div class="card-deck">
-        <div class="card">
-          <img src="assets/img/galeri-1.jpg" class="card-img-top" alt="...">
+        <div data-aos="zoom-in" data-aos-offset="250" data-aos-delay="1000" data-aos-duration="1500" data-aos-once="true" class="card">
+          <img data-fancybox src="assets/img/pjj.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">PJJ 2021</h5>
             <p class="card-text">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/img/galeri-1.jpg" class="card-img-top" alt="...">
+        <div data-aos="zoom-in" data-aos-offset="250" data-aos-delay="1500" data-aos-duration="1500" data-aos-once="true" class="card">
+          <img data-fancybox src="assets/img/mpls.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">MPLS 2021</h5>
             <p class="card-text">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/img/galeri-1.jpg" class="card-img-top" alt="...">
+        <div data-aos="zoom-in" data-aos-offset="250" data-aos-delay="2000" data-aos-duration="1500" data-aos-once="true" class="card">
+          <img data-fancybox src="assets/img/study_tour.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Study Tour 2021</h5>
             <p class="card-text">Lorem ipsum dolor sit amet.</p>
@@ -246,14 +248,22 @@
 
   <!-- jquery -->
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <!-- AOS | Animate On Scroll -->
+  <script src="assets/js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- bootstrap -->
   <script src="assets/js/bootstrap.min.js"></script>
+  <!-- custom javascript -->
+  <script src="assets/js/main.js"></script>
+  <!-- fancybox -->
+  <script src="assets/js/fancybox.umd.js"></script>
+  <!-- fullcalendar -->
+  <script src="assets/lib/main.js"></script>
+  <script src="assets/lib/locales-all.js"></script>  
   <!-- owl carousel -->
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <!-- lightbox -->
-  <script src="assets/js/lightbox.min.js"></script>
-  <!-- javascript custom -->
-  <script src="assets/js/main.js"></script>                
+  <script src="assets/js/owl.carousel.min.js"></script>                
               
 </body>
 </html>

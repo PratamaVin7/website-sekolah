@@ -141,7 +141,7 @@ nav.navbar {
 .navbar-nav {
     position: relative;
     background-color: #49C5E8;
-    z-index: 9999;
+    z-index: 1000;
 } 
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -179,7 +179,7 @@ nav.navbar {
 #hero-area {
     position: relative;
     min-height: 500px;
-    z-index: 9998;
+    z-index: 998;
 }
 
 #hero-area-nav .owl-prev,
@@ -881,7 +881,7 @@ a.wa:hover, a.email:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2.title {
+footer h2.title {
     margin-top: 25px;
 }
 
@@ -1204,10 +1204,6 @@ h2.title {
 
 /* css untuk berita_sekolah.html */
 
-#berita h2.title {
-    margin-top: 50px;
-}
-
 #berita {
     margin-top: 50px;
 }
@@ -1217,10 +1213,6 @@ h2.title {
 }
 
 /* css untuk pengumuman.html */
-
-#pengumuman h2.title {
-    margin-top: 50px;
-}
 
 #pengumuman {
     margin-top: 50px;
@@ -1461,59 +1453,6 @@ h2.title {
     width: 100%;
     height: 600px;
     padding-top: 50px;
-}
-
-/* overlay */
-.overlay {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0);
-    z-index: 9999;
-    transition: .8s;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.overlay:target {
-    width: auto;
-    height: auto;
-    bottom: 0;
-    right: 0;
-    background: rgba(0,0,0,.7);
-}
-
-.overlay img {
-    max-height: 100%;
-    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
-}
-
-.overlay:target img {
-    animation: zoomDanFade 1s;
-}
-
-.overlay .close {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    margin-left: -15px;
-    color: white;
-}
-
-/* animasi */
-@keyframes zoomDanFade {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
 }
 
 /* Desktop Version */
